@@ -225,51 +225,51 @@ namespace fyiReporting.RdlDesign
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PropertyCtl));
-			this.label1 = new System.Windows.Forms.Label();
-			this.pgSelected = new System.Windows.Forms.PropertyGrid();
-			this.bClose = new System.Windows.Forms.Button();
-			this.cbReportItems = new System.Windows.Forms.ComboBox();
-			this.SuspendLayout();
-			// 
-			// label1
-			// 
-			resources.ApplyResources(this.label1, "label1");
-			this.label1.BackColor = System.Drawing.SystemColors.Control;
-			this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
-			this.label1.Name = "label1";
-			// 
-			// pgSelected
-			// 
-			resources.ApplyResources(this.pgSelected, "pgSelected");
-			this.pgSelected.Name = "pgSelected";
-			// 
-			// bClose
-			// 
-			resources.ApplyResources(this.bClose, "bClose");
-			this.bClose.CausesValidation = false;
-			this.bClose.FlatAppearance.BorderSize = 0;
-			this.bClose.Name = "bClose";
-			this.bClose.UseVisualStyleBackColor = true;
-			this.bClose.Click += new System.EventHandler(this.bClose_Click);
-			// 
-			// cbReportItems
-			// 
-			resources.ApplyResources(this.cbReportItems, "cbReportItems");
-			this.cbReportItems.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cbReportItems.FormattingEnabled = true;
-			this.cbReportItems.Name = "cbReportItems";
-			this.cbReportItems.SelectedIndexChanged += new System.EventHandler(this.cbReportItems_SelectedIndexChanged);
-			// 
-			// PropertyCtl
-			// 
-			resources.ApplyResources(this, "$this");
-			this.Controls.Add(this.cbReportItems);
-			this.Controls.Add(this.bClose);
-			this.Controls.Add(this.pgSelected);
-			this.Controls.Add(this.label1);
-			this.Name = "PropertyCtl";
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PropertyCtl));
+            this.label1 = new System.Windows.Forms.Label();
+            this.pgSelected = new System.Windows.Forms.PropertyGrid();
+            this.bClose = new System.Windows.Forms.Button();
+            this.cbReportItems = new System.Windows.Forms.ComboBox();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.SystemColors.Control;
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.label1.Name = "label1";
+            // 
+            // pgSelected
+            // 
+            resources.ApplyResources(this.pgSelected, "pgSelected");
+            this.pgSelected.Name = "pgSelected";
+            // 
+            // bClose
+            // 
+            resources.ApplyResources(this.bClose, "bClose");
+            this.bClose.CausesValidation = false;
+            this.bClose.FlatAppearance.BorderSize = 0;
+            this.bClose.Name = "bClose";
+            this.bClose.UseVisualStyleBackColor = true;
+            this.bClose.Click += new System.EventHandler(this.bClose_Click);
+            // 
+            // cbReportItems
+            // 
+            resources.ApplyResources(this.cbReportItems, "cbReportItems");
+            this.cbReportItems.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbReportItems.FormattingEnabled = true;
+            this.cbReportItems.Name = "cbReportItems";
+            this.cbReportItems.SelectedIndexChanged += new System.EventHandler(this.cbReportItems_SelectedIndexChanged);
+            // 
+            // PropertyCtl
+            // 
+            this.Controls.Add(this.cbReportItems);
+            this.Controls.Add(this.bClose);
+            this.Controls.Add(this.pgSelected);
+            this.Controls.Add(this.label1);
+            this.Name = "PropertyCtl";
+            resources.ApplyResources(this, "$this");
+            this.ResumeLayout(false);
 
 		}
 		#endregion

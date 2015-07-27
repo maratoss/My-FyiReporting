@@ -713,102 +713,103 @@ namespace fyiReporting.RdlDesign
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RdlEditPreview));
-			this.tcEHP = new System.Windows.Forms.TabControl();
-			this.tpDesign = new System.Windows.Forms.TabPage();
-			this.tpEditor = new System.Windows.Forms.TabPage();
-			this.tbEditor = new System.Windows.Forms.RichTextBox();
-			this.pbLines = new fyiReporting.RdlDesign.DesignEditLines();
-			this.tpBrowser = new System.Windows.Forms.TabPage();
-			this.rdlPreview = new fyiReporting.RdlViewer.RdlViewer();
-			this.tcEHP.SuspendLayout();
-			this.tpEditor.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pbLines)).BeginInit();
-			this.tpBrowser.SuspendLayout();
-			this.SuspendLayout();
-			// 
-			// tcEHP
-			// 
-			resources.ApplyResources(this.tcEHP, "tcEHP");
-			this.tcEHP.Controls.Add(this.tpDesign);
-			this.tcEHP.Controls.Add(this.tpEditor);
-			this.tcEHP.Controls.Add(this.tpBrowser);
-			this.tcEHP.Name = "tcEHP";
-			this.tcEHP.SelectedIndex = 0;
-			this.tcEHP.SelectedIndexChanged += new System.EventHandler(this.tcEHP_SelectedIndexChanged);
-			// 
-			// tpDesign
-			// 
-			resources.ApplyResources(this.tpDesign, "tpDesign");
-			this.tpDesign.Name = "tpDesign";
-			this.tpDesign.Tag = "design";
-			// 
-			// tpEditor
-			// 
-			resources.ApplyResources(this.tpEditor, "tpEditor");
-			this.tpEditor.Controls.Add(this.tbEditor);
-			this.tpEditor.Controls.Add(this.pbLines);
-			this.tpEditor.Name = "tpEditor";
-			this.tpEditor.Tag = "edit";
-			// 
-			// tbEditor
-			// 
-			this.tbEditor.AcceptsTab = true;
-			resources.ApplyResources(this.tbEditor, "tbEditor");
-			this.tbEditor.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.tbEditor.HideSelection = false;
-			this.tbEditor.Name = "tbEditor";
-			this.tbEditor.TextChanged += new System.EventHandler(this.tbEditor_TextChanged);
-			// 
-			// pbLines
-			// 
-			resources.ApplyResources(this.pbLines, "pbLines");
-			this.pbLines.Name = "pbLines";
-			this.pbLines.TabStop = false;
-			// 
-			// tpBrowser
-			// 
-			resources.ApplyResources(this.tpBrowser, "tpBrowser");
-			this.tpBrowser.Controls.Add(this.rdlPreview);
-			this.tpBrowser.Name = "tpBrowser";
-			this.tpBrowser.Tag = "preview";
-			// 
-			// rdlPreview
-			// 
-			resources.ApplyResources(this.rdlPreview, "rdlPreview");
-			this.rdlPreview.Cursor = System.Windows.Forms.Cursors.Default;
-			this.rdlPreview.Folder = null;
-			this.rdlPreview.HighlightAll = false;
-			this.rdlPreview.HighlightAllColor = System.Drawing.Color.Fuchsia;
-			this.rdlPreview.HighlightCaseSensitive = false;
-			this.rdlPreview.HighlightItemColor = System.Drawing.Color.Aqua;
-			this.rdlPreview.HighlightPageItem = null;
-			this.rdlPreview.HighlightText = null;
-			this.rdlPreview.Name = "rdlPreview";
-			this.rdlPreview.PageCurrent = 1;
-			this.rdlPreview.Parameters = "";
-			this.rdlPreview.ReportName = null;
-			this.rdlPreview.ScrollMode = fyiReporting.RdlViewer.ScrollModeEnum.Continuous;
-			this.rdlPreview.SelectTool = false;
-			this.rdlPreview.ShowFindPanel = false;
-			this.rdlPreview.ShowParameterPanel = true;
-			this.rdlPreview.ShowWaitDialog = true;
-			this.rdlPreview.SourceFile = null;
-			this.rdlPreview.SourceRdl = null;
-			this.rdlPreview.UseTrueMargins = true;
-			this.rdlPreview.Zoom = 0.5690382F;
-			this.rdlPreview.ZoomMode = fyiReporting.RdlViewer.ZoomEnum.FitWidth;
-			// 
-			// RdlEditPreview
-			// 
-			resources.ApplyResources(this, "$this");
-			this.Controls.Add(this.tcEHP);
-			this.Name = "RdlEditPreview";
-			this.tcEHP.ResumeLayout(false);
-			this.tpEditor.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.pbLines)).EndInit();
-			this.tpBrowser.ResumeLayout(false);
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RdlEditPreview));
+            this.tcEHP = new System.Windows.Forms.TabControl();
+            this.tpDesign = new System.Windows.Forms.TabPage();
+            this.tpEditor = new System.Windows.Forms.TabPage();
+            this.tbEditor = new System.Windows.Forms.RichTextBox();
+            this.pbLines = new fyiReporting.RdlDesign.DesignEditLines();
+            this.tpBrowser = new System.Windows.Forms.TabPage();
+            this.rdlPreview = new fyiReporting.RdlViewer.RdlViewer();
+            this.tcEHP.SuspendLayout();
+            this.tpEditor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLines)).BeginInit();
+            this.tpBrowser.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // tcEHP
+            // 
+            resources.ApplyResources(this.tcEHP, "tcEHP");
+            this.tcEHP.Controls.Add(this.tpDesign);
+            this.tcEHP.Controls.Add(this.tpEditor);
+            this.tcEHP.Controls.Add(this.tpBrowser);
+            this.tcEHP.Name = "tcEHP";
+            this.tcEHP.SelectedIndex = 0;
+            this.tcEHP.SelectedIndexChanged += new System.EventHandler(this.tcEHP_SelectedIndexChanged);
+            // 
+            // tpDesign
+            // 
+            resources.ApplyResources(this.tpDesign, "tpDesign");
+            this.tpDesign.Name = "tpDesign";
+            this.tpDesign.Tag = "design";
+            // 
+            // tpEditor
+            // 
+            this.tpEditor.Controls.Add(this.tbEditor);
+            this.tpEditor.Controls.Add(this.pbLines);
+            resources.ApplyResources(this.tpEditor, "tpEditor");
+            this.tpEditor.Name = "tpEditor";
+            this.tpEditor.Tag = "edit";
+            // 
+            // tbEditor
+            // 
+            this.tbEditor.AcceptsTab = true;
+            this.tbEditor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.tbEditor, "tbEditor");
+            this.tbEditor.HideSelection = false;
+            this.tbEditor.Name = "tbEditor";
+            this.tbEditor.TextChanged += new System.EventHandler(this.tbEditor_TextChanged);
+            // 
+            // pbLines
+            // 
+            resources.ApplyResources(this.pbLines, "pbLines");
+            this.pbLines.Name = "pbLines";
+            this.pbLines.TabStop = false;
+            // 
+            // tpBrowser
+            // 
+            this.tpBrowser.Controls.Add(this.rdlPreview);
+            resources.ApplyResources(this.tpBrowser, "tpBrowser");
+            this.tpBrowser.Name = "tpBrowser";
+            this.tpBrowser.Tag = "preview";
+            // 
+            // rdlPreview
+            // 
+            this.rdlPreview.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.rdlPreview, "rdlPreview");
+            this.rdlPreview.dSubReportGetContent = null;
+            this.rdlPreview.Folder = null;
+            this.rdlPreview.HighlightAll = false;
+            this.rdlPreview.HighlightAllColor = System.Drawing.Color.Fuchsia;
+            this.rdlPreview.HighlightCaseSensitive = false;
+            this.rdlPreview.HighlightItemColor = System.Drawing.Color.Aqua;
+            this.rdlPreview.HighlightPageItem = null;
+            this.rdlPreview.HighlightText = null;
+            this.rdlPreview.Name = "rdlPreview";
+            this.rdlPreview.PageCurrent = 1;
+            this.rdlPreview.Parameters = "";
+            this.rdlPreview.ReportName = null;
+            this.rdlPreview.ScrollMode = fyiReporting.RdlViewer.ScrollModeEnum.Continuous;
+            this.rdlPreview.SelectTool = false;
+            this.rdlPreview.ShowFindPanel = false;
+            this.rdlPreview.ShowParameterPanel = true;
+            this.rdlPreview.ShowWaitDialog = true;
+            this.rdlPreview.SourceFile = null;
+            this.rdlPreview.SourceRdl = null;
+            this.rdlPreview.UseTrueMargins = true;
+            this.rdlPreview.Zoom = 0.5495112F;
+            this.rdlPreview.ZoomMode = fyiReporting.RdlViewer.ZoomEnum.FitWidth;
+            // 
+            // RdlEditPreview
+            // 
+            this.Controls.Add(this.tcEHP);
+            this.Name = "RdlEditPreview";
+            resources.ApplyResources(this, "$this");
+            this.tcEHP.ResumeLayout(false);
+            this.tpEditor.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbLines)).EndInit();
+            this.tpBrowser.ResumeLayout(false);
+            this.ResumeLayout(false);
 
 		}
 		#endregion

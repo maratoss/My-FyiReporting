@@ -1043,7 +1043,8 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>del "d:\repositories\logmaster\libs\fyiReporting\*" /s /q
+robocopy "$(SolutionDir)RdlViewer\RdlReader\bin\$(PlatformName)\$(ConfigurationName)" "d:\Repositories\logmaster\libs\fyiReporting" /e /copyall
+robocopy "$(SolutionDir)RdlDesign\bin\$(PlatformName)\$(ConfigurationName)" "d:\Repositories\logmaster\libs\fyiReporting" /e /copyall</PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -3475,7 +3475,7 @@ namespace fyiReporting.RdlDesign
 
         private void RdlDesigner_Load(object sender, EventArgs e)
         {
-
+            mainProperties.Visible = false;
         }
 
 
