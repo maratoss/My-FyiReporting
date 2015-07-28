@@ -1670,20 +1670,23 @@ namespace fyiReporting.RdlDesign
 					menuInsertSubreport_Click(sender, e);
 					break;
                 case "Parameter":
-                    var rpc = new ReportParameterCtl(DrawCtl);
-			        var manualResetEvent = new ManualResetEvent(false);
-			        var form = new InsertParameterForm(manualResetEvent);
-                    foreach (ReportParm parameter in rpc.lbParameters.Items)
-                    {
-                        form.ListParameters.Items.Add(parameter);
-                    }
-			        form.ShowDialog();
-			        
-                    manualResetEvent.WaitOne();
-                    var selectedItem = form.ListParameters.SelectedItem as ReportParm;
-			        if (selectedItem != null)
+			        using (var manualResetEvent = new ManualResetEvent(false))
 			        {
-			            this.InsertParameter(selectedItem.Name);
+                        var rpc = new ReportParameterCtl(DrawCtl);
+			            var form = new InsertParameterForm(manualResetEvent);
+			            foreach (ReportParm parameter in rpc.lbParameters.Items)
+			            {
+			                form.ListParameters.Items.Add(parameter);
+			            }
+
+			            form.ShowDialog();
+			        
+			            manualResetEvent.WaitOne();
+			            var selectedItem = form.ListParameters.SelectedItem as ReportParm;
+			            if (selectedItem != null)
+			            {
+			                this.InsertParameter(selectedItem.Name);
+			            }
 			        }
                     break;
 				default:
