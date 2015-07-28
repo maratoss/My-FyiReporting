@@ -54,6 +54,8 @@ using System.Runtime.Remoting.Channels.Ipc;
 
 namespace fyiReporting.RdlDesign
 {
+    using System.Linq;
+
     /// <summary>
     /// RdlDesigner is used for building and previewing RDL based reports.
     /// </summary>
@@ -880,6 +882,33 @@ namespace fyiReporting.RdlDesign
                     mc.Show();
                     mcOpen = mc;
 
+                    // ----------------------------
+
+                    var settings = new PrinterSettings();
+                    cbPageSize.ComboBox.DisplayMember = "PaperName";
+
+                    var propReport = new PropertyReport(mc.RdlEditor.DrawCtl, mc.RdlEditor.DesignCtl);
+
+                    int width = Conversions.MeasurementTypeAsHundrethsOfAnInch(propReport.PageWidth);
+                    int height = Conversions.MeasurementTypeAsHundrethsOfAnInch(propReport.PageHeight);
+                    int pageCount = settings.PaperSizes.Count;
+
+                    // This conversion may be better converted to mm instead of hundrethds of an inch
+                    int count = 0;
+                    bool sizeFound = false;
+                    foreach (PaperSize psize in settings.PaperSizes.Cast<PaperSize>().OrderBy(x => x.PaperName))
+                    {
+                        cbPageSize.Items.Add(psize);
+
+                        if ((psize.Width == width) &&
+                            (psize.Height == height) &&
+                            (sizeFound == false))
+                        {
+                            cbPageSize.SelectedIndex = count;
+                            sizeFound = true;
+                        }
+                        count = count + 1;
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -3769,7 +3798,23 @@ namespace fyiReporting.RdlDesign
             mc.Export(fyiReporting.RDL.OutputPresentationType.Word);
             return;
         }
-        
+
+        private void cbPageSize_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var mc = this.ActiveMdiChild as MDIChild;
+            var format = cbPageSize.SelectedItem as PaperSize;
+
+            if (mc == null || format == null || format.Width <= 0 || format.Height <= 0)
+            {
+                return;
+            }
+
+            var propReport = new PropertyReport(mc.RdlEditor.DrawCtl, mc.RdlEditor.DesignCtl);
+            propReport.PageWidth = format.Width / 100d + "in";
+            propReport.PageHeight = format.Height / 100d + "in";
+
+            mainProperties.ResetSelection(mc.RdlEditor.DrawCtl, mc.RdlEditor.DesignCtl);
+        }
     }
 
     public class RdlIpcObject : MarshalByRefObject
