@@ -951,13 +951,13 @@
   <data name="newToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFsSURBVDhPpZM9S8NAHIfjohQsfgMFUfALqCAOgrSb4ujg
-        Ig7VCIIddHHpKp0EO1jbDk4uSkFFcPAz6OwgikteLpdL20hq7uddSAINfRP/8ECG//NcuBClWq1eFQoF
-        9KNYPEGtlsftjQrjc/6UO2MZEGVCkSMXBg0jZbh0Dx5bA9OyHtPnHrid3uZcScUBwzCgaVqArusx1LwT
-        soqfxhL81q5ARctc9l0yec3t1GIcSMoyKGHkUpy8LsQcuHcveITf3IdnTb9wJ73VEUjKEscqhwFVyE/g
-        7WfxfACPTr2CjW/EgW6yaZqwSR3fdg5+YwW+eyjIwyWrvKXPiHsYne0ZkLLEIu9oWCUR2UHbyQoy4iI3
-        /a+3hSNAGekIJGVCSMgHHFpHk54JLlAqHSP4hHKiQC/ZsqwYSmmwK51QHz4g5YGBXqJt2zFyuga6nRyd
-        GsmMsWB3YCD52pHcN/CX6QgM8zcmqVQq56H+31GUX4Om83BvNNayAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFtSURBVDhPpZM9S8NAHIfjohQsfgMFUfALqCAOgrSb4ubi
+        Ig5qBMEOurh0lU6CHaxtBycXpaAiOPgZdHYQxcEmudxd+iKpuZ93IQk09E38wwMZ/s9z4UK0Uql0mc1m
+        0Ytc7hjlcgY31zrMj9kT4YykQLQxTY1a6DecFNCku3D5CthX2uXGzL1gyU0htEQUME0T1WrVxzCMCGrd
+        SlnHT20BXmNHoqNuLnpNMn4lWGI+CsRlFVRwciFPXpXiNoR7J3mAV9+Da08+Cye50RaIywrHLgQBXcqP
+        EK0n+bwPl068gI+uRYFOsmVZYKSCb7YNr7YEr3kgyaBhLYuGMSXvYXi6a0DJCpu8oWbnZWQLLSctScmL
+        XPc+X+cOAW2oLRCXCSEB73BoBXV6KjlHPn8E/xOqCQPdZNu2Iyil/q5yAn3wgJL7BrqJjLEINR0DnU4O
+        Tw1lzrm/2zcQf+1Q7hn4y7QFBvkb4xSLxbNA/+9o2i9pk/NnRA5vXAAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="newToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -975,18 +975,18 @@
   <data name="openToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ2SURBVDhPjdHbT5JhAMfx97ab7vo/Oniou25YrNzSwlfx
-        1QEV2kXzxotkLVs1N6tl06ULMY88FMSIdIXWnLJkjguTOKggKCJnnNW6QDn9et8Hs2yVvtvn6n2e73Ni
-        /vzYWsl2jbQ6y9ZezNVIKykJeylfXXM5L5PXLUokkmO7Q4tfa2vroEql2vyJDyCdTmNnZweZTAbZbJbK
-        5XIYGR2BVFq7znHc0d3pNPDVbrdjbm4Os7Oz4FeCz+eDy+WinE4nFhYWMD8/j0KhgM7OxwWOq3PzOzlC
-        Ay0tLV9sNhvMZjOMRiMN+P1+9D/v38fjcdNAPp9HV3dXgauX9tFAc3PzltU6QycbDAYIRwiFQlhbW8Pq
-        6ioVCAQQDAaRSCQQiUTgcDjQIGO/0YBSqdycmpqCXq8HIYQGotEoBocG+JU1e4TIxsYG5fjsANcg/U4D
-        crk8ZbFYoNPpMDw8DP4FkEqlkEwmKWFVQTwep2KxGLxeL9h6SXEHMpksMT4+jrM3CE5fLyrnlTUWlVLa
-        PSXKX05dJWGGZdmEyWSiA2c8yb+yChb3++CM85GhghCICecX6h/5H91vVw7UM+HHpCOGEoU2z1RVVUUI
-        0fLb1cK2lMKzycCBeix+THyK4bhiKMtUVFSEhcsrbyKYdiageR9A3z/08hOfjPnwyLyMN/YwShUkw4jF
-        4pBGo6GXR6zr6Bzz4uHrZbQbl3DfsIi7eg/aXrihGnXh5oiTukVc6Hm3gtIro9uMSCQKqtVqnOEDT/nz
-        3TN4cFvn/q87L91of+XBiUaSpoG2jl4aqO6YBvtg5lAutFlQ1qT1MqLzlQO/v+2hKQa3Tl4j534AKEmq
-        cQP/mCIAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ2SURBVDhPjdHdT1JhAMfxc9tNd/0dtfKl7rphsXIVCUfx
+        6MBF2kXzxotkLVs1N3uxrIVLMUnloSBmpCu05pQlc1yYxIsKgiLKu7NaFyhvv855MMtW6dk+V+d5vs8b
+        8+fHVks3q+SyLFt9NlclP0dVyiR5KXshr1DWzEml0kPbQ4tfS0uLTq1Wr//EB5BOp7G1tYVMJoNsNkvl
+        cjkMDA5ALq9e4Tju4PZ0GvjqcDgwPT2NqakpyKoq4ff74Xa7KZfLhdnZWczMzKBQKKCj436B42o8/E4O
+        0EBzc/MXu90Oi8UCs9lMA4FAAL3Penfxej00kM/n0fmos8DVyntooKmpacNmm6STTSYThCOEw2EsLy9j
+        aWmJCgaDCIVCSCQSiEQicDqdqFPIvtGASqVaHx8fh9FoBCGEBqLRKHTP+/iVtTuEyOrqKuX87ARXJ/9O
+        AwqFImW1WmEwGNDf3w/+BZBKpZBMJilhVUE8HqdisRh8Ph9ktZXFHfCBxMjICE5eITh+uaicV9ZQVErp
+        d5Rc+uXYRbLGsCybGBoaogMnvcm/sgnmdvvgivMRXUEIxITzC/WP/I/Hbxf3pBkNYMwZQ4lSn2ckEkmE
+        ED2/XT3s8yk8HQvuSWMNYPRTDIeVuixTUVGxJlxeeSPBhCsB7fsgev6hi5/4cNiPe5YFvHGsoVRJMoxY
+        LA5rtVp6ecS2ggfDPtx9vYA28zxum+Zw0+hF6wsP1INuXB1wUdeIG5p3iyitH9xkRCJRqLu7Gyf4wBP+
+        fLdMXlw3eP7rxksP2l55caSBpGmgtb2LBmTtE2DvTO7LmVYryhr1PkZ0+nzf72+7b/V9G0dV5NQP0Leq
+        UA+uqX0AAAAASUVORK5CYII=
 </value>
   </data>
   <data name="openToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -1001,16 +1001,16 @@
   <data name="saveToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIvSURBVDhPnZNbaxNBGIbzP/whBkRKwRtFBMGL3ljwgEG3
-        OVlLD9iamxSxpcVAS23B7ZVp2uAKhpRoJJoDJFmyOdgEi1mDSVpoczBNAjExyevOWDfdRr3wg2dn+Oad
-        h5ldVjViHn94efLpzFnNvF6teTKv1sztSEB92/z9osG0NzQxZVb9qwb1luEbS29mTPbYdU7Yj8Qy3xD4
-        XMSaN4Nbc+udgbuPO5qp4TPH8f5iHs0u3zGO4qZhDJe0Zgw+WMWFCRbPPbv4sFvA1VkOV+5NQ2dg+tDq
-        GZOKMeqQ3RdBSvyaQiglQvfMCXKNLT4Ly/ZHXJteQzKzRzO/q16vU4nq/hiDTqeDcrmMUqmETPYLxlde
-        UcGkNYzF1wLOMwuwu33SupQhuXIJtXrtl4A82j/aKBSLdNNJiGDI8q6vX5SytdoJQavVwsHBIcJRPw2s
-        eNIwsh6ZUfY9lt9+omtLNg6HUrZarfYEzWaTSvL5PAK8R5aQjYStYIb2LC/sNEPuf3R0pBSQd3BaYudz
-        VHSOWZQ3kwzJKgSNRgO5XE6WEISdIAZGFqho9aWD9trtNs2QbKVS6Qm63e7xx/lzkSMTCoUCpU8gCAJC
-        oZCCQCCgmJ8mlUopBaTJsiw4joPb7Ybf70cwGEQsFoPNZkMikZBHl8uFcDjcE0QiEfh8Pmxu2uBwOOD1
-        emUBz/PYsG4gHo9Lo5WO206nUiCKItLptEwymaREo9G/IgvID0Em/4NWz5h+Ap2Z2kOn0jnsAAAAAElF
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIvSURBVDhPnZNbaxNBGIbzP/whLYiUgjeKCIIXvbFgBSNu
+        kzTW0gO25sIUsaXFQEttwe2VadrgCoaUaCSaAyRZsjnYBItZg0laaHMwJ4iJSV53xrrpNuqFHzw7wzfv
+        PMzssqpR4+SDK9NP5/rUi7p+9ZPFfvXCngT6bj36fmnMcDA0NWNU/asGdabhmytv5gzWyA1OOAxFUt/g
+        +5zHhjuFkYXN9sCdx231zPC5k3hvMQ/nV2/rxzEyNoHLGiMG76/j4hSL5659fNjP4do8h6t3Z6EdY3rQ
+        6BiDitFrkT4UQUr8mkAgIUL7zA5yjR0+DdPuR1yf3UA8dUAzv6tWq1GJ6t4Eg3a7jWKxiEKhgFT6CybX
+        XlHBtDmI5dcCLjBLsDo90rqUIbliAdVa9ZeAPFo/Wsjl83TTaYhgyPSup5+XstXqKUGz2cTR0TGCYS8N
+        rLmS0LMumXH2PVbffqJrKxYOx1K2Uql0BY1Gg0qy2Sx8vEuWkI2EHX+K9kwvrDRD7l8ul5UC8g7OSqx8
+        horOM8vyZpIhWYWgXq8jk8nIEoKw58fA6BIVrb+00V6r1aIZki2VSl1Bp9M5+Th/LnJkQi6Xo/QIBEFA
+        IBBQ4PP5FPOzJBIJpYA0WZYFx3FwOp3wer3w+/2IRCKwWCyIxWLy6HA4EAwGu4JQKASPx4PtbQtsNhvc
+        brcs4HkeW+YtRKNRaTTTcdduVwpEUUQymZSJx+OUcDj8V2QB+SHI5H/Q6BjDT4pY2j7KNcAnAAAAAElF
         TkSuQmCC
 </value>
   </data>
@@ -1026,18 +1026,18 @@
   <data name="cutToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJpSURBVDhPjZPtT1JRHMe5oDBhwICll1uIDy/YeturXvWq
-        rfU32N/R1uYrE+4jQVosc22F8iAoDeJhtmYbi0QEsVmt1eboBaY1h9eMMM89nQNXsmEPn1fnfL/f3zm/
-        87u7ipOwgvMKx9NfJibdr2WpDcvTPreb35W3p+P2OL+Jogg4jk5P3r09KstNPF6mWiwVJMHLL8lSJ056
-        THq1UYY7n3eAd9IdlWUFI4xfmosGYW45C4VbbF2WO2FZdj+RfAxFcU9iBPrtcRcM5zxcLeXhQiyCuhvf
-        aIZPg2WdFzmBhu8/vMNdSJ4J4Rkr0PdSmQRE7UPkATSL357WAc+zlWQqDuv1OioYE6fu+6RkKgEzi0nA
-        8HRcjv0ZnnddwLOoVDZhba8GpqZ9MBSexbfXsSfH/g7nph8uPk2DrU9ViIeHZiCxvMsn2/+GFVwjDHMT
-        vshlYSIeg9PnHQf/fft8X58Q6e3dD6jV8MHVy1JAqYQvKStEem2eJBk51gkyR8MaDSgODIB8f7+UNhqA
-        v4uY8XepjvIUBVeRnrPbQVirBVGSvCaXtVggyRG/Wi2V7fYfQYLIPDebvwcIAmLPb1YYlm3nwNIZSyNE
-        EOmi1Xr4CGVjFPXrc4aMxmp5eBgElcobeF+y2Q5mtNqjpokIqVRg5Swl4jXKXMfd4JqmiYno9Y01dDJe
-        P9FqPaXBQRDo6Wn/UOhphXV0QUavv4P366jTiMnUzDeJWCybbxwOUKCoRt5mA6Hu7mrMam1PHa+Rtr02
-        NARWSLKVMZm2Zbs1g1mDYSui031FJ9dPFh+DM0G9Pjun0eyGdbqPrYxC8RPkajWlsDISFQAAAABJRU5E
-        rkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJuSURBVDhPjZPNTxpBGMZZUIiQRYFUWFrEj6Sm55566qlJ
+        07/B/h1NmngxRXaHXQqVajT2oFg+XJRGihCbxibELxC0jaZp2sTQA5amUdFainV2OgMrtcF+/E4zz/O8
+        M++8m1WcBwiDt108+2XI596WpTqAZ0fcbn5P3l6M2+P4ViqVoMvFJnzDj/pluYrHyxXWs2lJ8PKLstSI
+        wzkgvdnaRMXPRej1uSOyrOAEx83pSBAtr6aQ8BCUZbkRAMBRLP4MlUoHEiewb8+6YIHjZD23hmajIu7O
+        sVUNXwQAgzdcAovef3hHupA8Q8JLILCj88kYyuYyCHsQz+K3pzXA8yAfn59D5XIZFwwcjo4NS/H5GEou
+        xCHHs3Ny7M/wvPM6mUU+v4P2D/bh2PgICoWfktvLxJNjf8flZicWXiTg7qcCIsPDM5AA7xyR7X8DBGcf
+        xz1AS8spFJuLovFrV4//+/YZs1kQ29uPAmo1enLnlhRQKtGKlUFYP5ixWDg51gg2+8MaDVzv7ISrHR1S
+        olUP/U3U1GST6nTNakUZrC/Z7TCs1cKIxXJXLqsxa7H0TarV0qbd/iNIUclXRuP3AEUh4vmNCv2K7Qpc
+        vGSqhCgqkWWYkwmcjVqtvz5nqLW1sNHTA4NK5X2yz9lsx36t9rRqYkIqFUxfth6SNc7cI92QmqpJEGm6
+        soFPJuvnWq0n29UFAy0t9R8KPy2ziS9I0vRjsn+NOxUNhmq+imgy7Wz39sI0w1RWbTYYam4uRBmmPnWy
+        xlox190N18zmWsZgKMp2bQZTev2uqNN9FdvayueLzyCZIE2npjWavbBO97GWUSh+AmHENWXnaKsMAAAA
+        AElFTkSuQmCC
 </value>
   </data>
   <data name="cutToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -1072,15 +1072,15 @@
   <data name="pasteToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVDhPjZNLLwNRGIbPYGHpNyD4D0Jd+i9UuzCh2mlL
-        LFXHQtz2Yi0k1qrFaCJIWLjtSMumC0wvM522NhbMa74jLUPJvMmbTL73fM85Z3I+1kCCz+dNeTwefDfV
-        KPtc8kNBNxNDw0JJcgsIuputhhGsra1gfX2Vm76pRhmtCbgEPTDIRnmz7GItIbfwcrzQia1YP6ZCIrxe
-        L2Q5ivn5Oe5YbJbXwpKIjegAFLkDUr9QlmXWxCIu1hYZbHo9X+7GdEREpVJBNptFKpWymWrVahVha4Oz
-        pW4E+tibz8VabYBxvwhSuWw0NGliUsTpYs9vwNlSlw2wm0zabBglnjkGfLdh6ND1Is8aAsL/nCCeSGAn
-        HkehkOOZYwAdWdc1FIsF3vzwkOGZI0CppEPTilZzHvm8ivv7NK6uL3jmCKBpn7vmcs+4vrmEcriHAyXJ
-        s8aAATuAdlXVJ2Qyd1CUPV6ryRFAVR+RTt/i5PQI+/sJXiNRMz2iPwFToTHo1v1N06ybfqZpvteba64D
-        aBakYeHl0Hrf23O9mLGec0Dy//JmtK/u3dl2BGuzQAoOMdGC8Gl04q9pZOwD0PhZOUb9pLQAAAAASUVO
-        RK5CYII=
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG9SURBVDhPjZNPT+JQFMVfdRYu/Qxq1O+gTh3lWwwDCxt1
+        oIDGJUhdGB3dE9ZGE9ciqJXEKAmzGHV2MwHZsJix/Gkp4GYWY4+9z4BW0fQkJ2nueff33mveZT0k+P2+
+        rNfrxXNTjbLHJS8U9DApNCs0ZI+AoKffbviMRGILyeQ2N31TjTJaExAFI/CJfeHNisg+hDzC3fn6CPbi
+        H7EUkuDz+aAoMaytrXLH41FeC8sSdmLTUJVhyFNCU1FYH4uIbDAy3ffv+7cxLEcktFotlMtlZLNZh6nW
+        brcRtjfIb44hMMn++0U24ADML0ogNZtmT5MWvkrIbYy/BuQ3Rx2Aw0zGYdNs8Mw14LlN04Bh1HnWExB+
+        5wSpdBoHqRRqtQrPXAPoyIaho16v8eZSqcgzV4BGw4Cu1+3mKqpVDTc3BVxd/+CZK4CuP+5aqdzi+ucl
+        1NMjnKgZnvUGiE4A7appf1Es/oaqHvFaR64AmvYHhcIvXOTOcHyc5jUSNdMjehOwFJqDYd/fsqyu6Wda
+        1n23ueMugGZBnhXuTu33vb86gRX7OQfkxVfejU11fRgdQrAzC6TgDJNsCJ9GN36aRsYeAKNsWSEik+2N
+        AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="pasteToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -1095,15 +1095,15 @@
   <data name="undoToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG0SURBVDhPnZJLSwJRGIZPUUQFiaVhVhBFiyCoXLSMoj/Q
-        H2gZMUG5EKTazKJfIViTTRpBtWjVFUedQgsJutHdtCntKl01C78843EaISN74OWc+Zj3OcNwUCb4cQRk
-        mx12E1Lh8r8Eg4NIiYsfz7PZC+TlD6FeFOAsWhTBZXPp1pJFO2kwoGLyejry8pu/BWIXNRC7M0DsVg+R
-        0AA8hXqjSxbVrn1ctUcbC6tILQlNoyKpfN4EkYAOHo8b4DWxx+uFtxzuDlvhLUjBmacj7mDLBHo4X0fq
-        yb+dKkcTZSzASQlC29VSsMjvbYdVi3oDHywKpM+/HxIFL75G2OfypMgFPncxPF/2wZqtPLrCqDdFAeZb
-        YoQjV564vt9QaYmc5icERXDgLIDbEz3Y2coXUk8il+DgfVqmc+DBPwA+jwKeBAo4Vh0l1W/kErySMeIZ
-        1LxgQl2uMeR5veqHcMAIDrYi8z1JnUoeJXgz0rpncuE+MBJ3Tih/v2g/CTDr1pK4sNcd52x1YTL6O65R
-        VLvPt33ucJ0JQS1Nxn/HyaDu6+OeeYdVOUdG2eG0aih+SkvZGaRJThD6Ag00TkFZDA8wAAAAAElFTkSu
-        QmCC
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGzSURBVDhPnZJLSwJRGIZPUUQGhaVhVhBGiyCoXLQLiv5A
+        f6BlwQTVQpBqM9C/CKrR1CKoFq26Ml5G0EKCqOiKeSmtLDFLTcMvz3gcR8jIHng5Zz7mfc4wHFQMToeA
+        bEuDnUcyXP6XYHoaSXExFd0oXSAup/wdvABnR18X2FuoP97VK40aDaohrxciLsc8vZD0tUEypIHk8xTE
+        g5MQCY4ldvWyU1YnO6O11S2kloWmkUQo33VD3KuGyHUnfGT2ePW5GiF02QexAAW3jsG0xdDgp2cr1aSe
+        /du5ciJTxgKcnCB40ioEizyuATjQyw/xwbxA+PyXGV7w7u6Cc3OFELHA7aiB6P042E3yxD4jP+IFmLxE
+        C1e2Cn79fKIKEr+tzAgkcGGtguebKWANze+knkUswcH7gqyVwatnEtzOOnjzU2A2yBKkmkcswSsZI45B
+        PdvzaNi2hJwfDxMQ9mrBYmgqfk9yp5JHAW4BKR3r5RDyzKWty9LfL9pPAozdWJv2nY6kzSvtYTL6O7ZF
+        pDrj+r9O2KGMQEWT8d+xMmjk8Xp0y2KSbpJRaVhNCopbVVIsgxTZCULf88FOLyJbJjIAAAAASUVORK5C
+        YII=
 </value>
   </data>
   <data name="undoToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -1135,21 +1135,21 @@
   <data name="chartToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAATCAYAAACZZ43PAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMsSURBVDhPjZN/LNRhHMefOyElNYfaJZP8KGSZftrUovM9
-        0s45HZGQmW7XpVIrS7S2ZirmIvqlkYwJp+uEuH2LSps5qlO4kl2tFVe2tpa16d3X+lq3xvLaPn99Pu/X
-        Z8+z5yH/QtPv5mv7Pstu0yOD2VUDVSmXe9awrblhvaeO2pL1EAevP0fSpT5szX7ykwActj0HpHUUiWnA
-        4iQ1fI92Ya2iY3JKAL3eip34D6xg0bTgUMfkj+He3B/9D8e/0+Xab9WZQezkLEwLEtXwOfIUfkefYOBA
-        IEavHMK4ci9MxwNfs5OzwAoW7lNjdfpjeKd3ojfMAa/i3DGW4Y/Pmdu+6IzaniZ9afXd3gIfNmXGlEBa
-        jwUJjXBXdMJL8Qi6MB76Y93wKd0P/acCUfz0LGp0uThP759kU2ZE1VAkuhY2cfVYKX8EdzmNbiEPL6Su
-        +Cj3QcdhXywp3IQTzRKmosGmzIiqooikGvNja+Eio+Eq06KL4kEnccH7tDWgFd6wy9+Aw5pIpN+LnEEg
-        qqCIuBLW0mrw07RYkdaGTkbQLXbGSIontDIv2OYFILlhJ5KYYlNmiG5SRFQOK0kllqa2gZ/6AHQoD10i
-        PoYTV6Et1QM25/zBnBRiptiUGTuvUWRXGSzF5XBIaYVTSgvaBfbojFgGw15XtCa7wfqMH0IqgxF8K3gW
-        QcQ1WIjKsCS5Gbzk+2hhBHS4IwZjVqA5wRXzsnyxviwIATeCZhKUUCS8FNyIq8xjasLiRA00O+zRLmTe
-        QjQfmj0usDjpA4/SzXBnik39RV704CwRFoMbXgKbhHuwTVCjkRG0MBf5MnIZ1NLl4B7zhpMyAPYXAybY
-        GCFjY2OLTCaTXUWz7i0JVYIbVgSr+LuwiW9EfYg9mgQ8PI9wRIfExeR8evudhfnr8nh5/nzy9asphwkP
-        G40jvwwGw5e8ilaaCArAoQphEauCZZwKTRnicY3QCd2hDh90QkcZu/MPzNbc0dFPz4zvRyYMbwZQpqJB
-        Qi6AI8jH1J/gRDVM5uSA2yYP89Tv9p79Sw8NDVkPDuo39r3oUWQo6yudJEVDnJiGFosYVQg7MgOE/Aa7
-        W7tJ9UT0mwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMtSURBVDhPjZN7SJNRGIfPZmmrTNnUZJWYeSk1SewqWKTp
+        Ny8x52zeMh0iNtaysqjoYgghJkZmZVmGZqKYt9bMW+NLrQzEaTVLXalpRLmpEEQR2K9P+qIRSj7w/vW+
+        v+flHM4h/0LTw4u0vZ8Vd+mRgbPl/eUpV7vXsa35YRVXTW07/RgHbr5A8uVebD/75AcBOGx7HsiqKRJT
+        C5tkNbyPdGL9gbbpGQH0ekt24j+wAus/AlXb9LehnuxvfY+nvtIl2i8VJwPYyTn4I0hSw+vwM/gceYr+
+        /f4Yv34QU/l7YTrm/4adnANWsGSfGmvTn8AzvQM9oXZ4He8KY4YvPp/YMaEb1XY36Asr7vdc9GJTZswI
+        ZDVYnFgPV1UHPFRt0IUK0Bfrgk/pPug75Y8rz7JQqcvGBVo+zabMiKqkSHQVePE1WK1sg6uSRpdIgJcy
+        Z3xUeqH9kDdsL23B8UYpU9FgU2ZElVNEWoFFsVVwUtBwVmjRSQmgkzphLG0daJUnluVtwiFNJNIfRM4i
+        EJdSRFIGK1kFhGlarEprRQcj6JKsxEiKO7QKDyzN8YO8NhzJTLEpM8S3KSIugaW0DMtTWyFMbQEdIkCn
+        WIihpDVoTXUD77wvmJNCwhSbMiO8iCK7i7FQUgK7lGY4pDThUTAfHRGOMOx1RrPcBVbnfBBUFojAO4Fz
+        CCKKYCEuhq28EQL5QzQxAjrMHgMxq9CY6IwFp72xsTgAfrcCZhNco0hYIbgRN5jH1ACbJA00u/h4JGLe
+        QrQQmjgnWJzwglvhVrgyxab+oixoySKiK+CGXQMv8QGWJqpRzwiamIt8FekItWwFuEc94ZDvB36u33c2
+        RojRaLQ2mUzLSht170hIPrihBbBMuA9eQj1qgvhoCBbgRYQ92qVOppVndt5bkrchR5DjKySTk6ZMJjz0
+        /v3wT4PBMJFT2kyT4IvgUJdgEVuHhfF1aMiQTGlEDugKsfugE9kr2J2/YbZmj49/ej46NvLd8LYfxXU0
+        SFAuOMF5mPkTHEntdGYmuK3KUHf9Hs+5v/Tg4KDVwIB+c+/LblVGfk2Zg7RgkBNT22QRUxfEjswCIb8A
+        nLi7PVlALUIAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="chartToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -1208,15 +1208,15 @@
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIjSURBVDhPjZNdb9JQGMeN936DXe6zjCXLkAmZd41vMzpj
-        jCa7MyFmicbbaYwxURnbZHNxMsJwHZuIQUDk/aWlHAptQZFBBh/A5O/pGVAlLOFJfjlP2/P8enp6nnN6
-        ZDKZiVqtxqmqylUqFY4QwkmSxBAEgcvlclw6ndbHy3a7/Twr+jdEUTSfdDpQfx2jWm9C1hooqz9RqtYh
-        yRrEsgKhVGUjfdFKr8yIQqFwsdE6wfZXCf6kgqOUykY+UcWnHxV4v8twhwl2QhLa7TY0TXvYKz2NvsAT
-        KcMXk+GNlmlO4P5G8CFUYuKtYJEJut0uk9DPvdkrZ3vABK6AiM0vIt59FrB2VIDTn4fjIIe3fA5v+CzL
-        3wf15wUUiuRPIBCYYIJsNmvRBfqk1/vjUaT7QQWTTJBKpZhg1MSzIBUN4XB4IJgbFqzsBbHs2cCjvZdY
-        5p/hsf85nhy8wlPfFl74wpCV+v8C5VjFHfd93P74AAs7t7DoWcTS/tJI7nrvoahKhiAej8+R3wTTq9Nj
-        I2oiEonEqYAml0iDYMoxNTaleskQxGIxJjCtmmDZsGBmbYblowr7yA0Z+Xx+ILD2V6Avz+ayweqyYnZ9
-        lsn0e8MCpakYgkgkMhAMY3KYmGx+cx7mdfNAprU0QxCNRm3NkyZ287tnwhd5HEqH8Ak+dt3qtAyB0+mc
-        pL9yIZlM3qDHmkHb9zptXwY9qdd0aMFVHdq9OldCodCFvxSymt+kA4umAAAAAElFTkSuQmCC
+        jCa7MyFmicbbaYwxURnbZHNxMsJwHZuIQUDkndLSlkJbUGSQwQcw+Xt6BlQJS3iSX87T9jy/np6e55wR
+        uVxuolarMZqmMZVKhZFlmRFFkcLzPFMoFJhsNmuMl51O53la9G8IgmA96XSg/TpGtd6EojdQ1n5CqtYh
+        KjqEsgpeqtKRvGilV2ZGsVi82GidYPuriGBaxVFGoyObquLTjwr83xV4ozJ2IiLa7TZ0XX/YKz2NvsAX
+        KyOQUOCPl0kuw/tNxoeIRMVb4RIVdLtdKiGfe7NXTveACjwhAZtfBLz7zGPtqAh3kIProIC3bAFv2DzN
+        34eN50VwgvQnFApNUEE+n7cZAmPS6/3xKJH9IIJJKshkMlQwauJZyBUd0Wh0IJgbFqzshbHs28CjvZdY
+        Zp/hcfA5nhy8wtPAFl4EolDU+v8C9VjDHe993P74AAs7t7DoW8TS/tJI7vrvoaSJpiCZTM7Jv2VMr06P
+        jaALSKVSpwKSXJIbMqZcU2Mj1SVTkEgkqMCyaoFtw4aZtRmajyrsozQUcBw3ENj7KzCW5/A4YPfYMbs+
+        S2XGvWGB2lRNQSwWGwiGsbgsVDa/OQ/runUg01u6KYjH447mSRO73O6ZsCUWh+IhAnyAXrc6LVPgdrsn
+        ya9cSKfTN8ixppD2vU7al0JO6jUDUnDVgHSvwZVIJHLhLww8mtyn4eaoAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="imageToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -1354,16 +1354,16 @@
   <data name="boldToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIwSURBVDhPxZDfS1NRAMcvPdhr/4DQzIpumVbDwIcorFib
-        OAqbs63N2TKimCwY9pAulOXmNtl0Mt2a12WQ2SQjQo1yE9vEDdn6ZVlZ+iAVlNFLEZ35bWddabJ8C/rC
-        By7n+/0cDpf55ylUcxuKNNzPPdo+ZELPaMfP1o5Q22douvYo+X7pGz58+Z6Gfl/sGU/Sjp+tEaNxXXEt
-        9yMx9xn9EwuocQSTFP/YG9yNzIF2dMOvs7NLzZXWNI2QV4tfYRuagVDtT1LMg88RGH+Nw4YAKdL4DvLz
-        7OzW+J4NhGYRCL+DrnMCQo1vQaji5rX2ECy3nqKuIwS64eers72yJ7dE05sMxudhv/MSJef8ZIfCc5Sy
-        92wv0V+Nw+CNoVDuTdItr/3JTmVXZ71zdNk38gIXPDGwChdhjw/kpFF0EKU1jGpHDPvr+pfZqm43r/1O
-        vsi5npU7iet2HI3XH0NlCWKbzLWKskv3ITNPQdwQAlvpINThdYbZWuE4cUjvJ6YbCeg8CRi4J7AMzsI7
-        +hZDk4sIz3xCJIXkcgRHjBGwqm5CHV5nmM3H2pZOWx/gvHsap9qnoWqLocoaRUXLFKTNkxDz4gr79PdA
-        nbQskNoLWJmN1LZHcTIlFlR3kU1SG/4Gq3QTeoGoMYwt5TZCXSZfah0+oAtA3hqFpGEMeaIrqZ9nzEnf
-        nhF6RrvS+ofpVxSfuQlBuXWYyZWYPm4Ut2AFgcTczDtZyStrNWVuqctX/y0M8wvoxVyUtlVBbwAAAABJ
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIwSURBVDhPxZDdS1NhAMYPXdhtf0BBMys6WetjDOoiCo1s
+        s0Zhm7Y1t1pGFJMFYzfpKhluHmdrarOtfZiBZZOMCGeUW4xN3JCtL8vK0gupoIxuiuidT3vXkSbLu6AH
+        fnB4n+f38nKYfx5hrX+ZUOP/uVXXg3zoGe342eIR6XqMF65FM+9nv+HDl+856LfJF8nQjp8tErN5ibjO
+        9yM9+Rk3otPQOsIZSvfwG9yNT4J2dMOvC7O51l929HyIvJr5itaBcYjU3RmKtf85go9eY7cxSDZpveX8
+        vDBbtN5nfZEJBGPvoO+MQqT1TovU/imdPQLbraeob4+Abvj5wqxX+FZs1wQy4dQU7HdeYtupAClVug9Q
+        xCf9xHA1BaMnCaHCk6FbXvuTjaquTpMjNOcNvcAZdxKssp2wh/qKciidRMXFoHEksbO+d46tueLitd8p
+        qbi0lK12kI7bKTRefwy1LYx18o4FVJ69D7l1FJKGCFjFRUIdXmeYtVWOw+WGALH0pqF3p2H0P4GtfwKe
+        obcYGJlBbPwT4lmk5+LYa46DVXcR6vA6w6w+2DZ7nHuA064xHHOOQd2WRA2XQFXzKGRNI5Dw4jw7DPdA
+        nZwskNk3sHKO1DkTOJIVSzUuskrWir/Bqi4TekFFYwxr9nGEukyJjBvcpQ+iuiUBacMwivdYsj/PXJS7
+        PS/0jHZlpoe5V4hP3IRgPzfILJdaPq6UNGMegdTaxDsFKa5sseRvqctX/y0M8wuJj1xpSZxBoAAAAABJ
         RU5ErkJggg==
 </value>
   </data>
@@ -1385,15 +1385,15 @@
   <data name="italiacToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHeSURBVDhPY6AbMElarG6QNv+Pccri/yBslrbgJ1SKMNBK
-        ni1kkbHw57qj9//fffH5//Ebr8GGQKXxA636ejbzxHnPJq099+/wlRf/vSs2/91x7tl/o6SFxBlglrJw
-        e+GM/X/P3nn73z5z+V+DhHn/Z++6+x9EQ5XgBkBFVSENm8Ga/cs3/TVKmLdQL3bO/4pFl/6DaKgy7EAv
-        dpa7ffrSv4evvvyf27v7n0HMzEf29fUsOtEz/+fMOP8fREOVYgLd6GnqevHT/mw6/vB/0+Kz/zWjZvxW
-        i5wpApLTjpj2P3HCmf8gGqwYHWiFzBbSjZzyc+aWa//711/7rxs6/a9mxDRDqDSDZtiU/6EdJ/+DaKgQ
-        AmiF1rPphE1+Vjv94L8ZO+7+9ypf8089eOJ/ZKwVPP2vV8MxMBuqDQE0gidtj2ja/Hfatjv/06ac/Z85
-        7dz/svmX/zevuPF/0qY7/xftffh/6f5H/z3rj/1XDexDNUDVv6/KPnXh3771N/+7Fq34p+zX8x8bVvOb
-        9BdkAIgN1crAoODd4a7u2/83Y/Kp/37VO/7LefX8lPNuF4RKowBFn06wC0A0VIiBQdmn65KCV/t/EFZ0
-        a/mj4N6kDpXCADLunT9B6kA0VGhAAQMDAMMdBMIuNaZUAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHdSURBVDhPY6AbMElarK6fNu+Pccri/yBsljb/J1SKMNBK
+        ni1kkbHg57qj9//fffH5//Ebr8GGQKXxA636ejbzhHnPJq45++/wlRf/vco3/91x7tl/o6SFxBlglrJw
+        e8GM/X/P3nn73z5j+V+DhHn/Z++6+x9EQ5XgBkBFVcENm8Ga/co2/TVKmLdQL3bO/4pFl/6DaKgy7EAv
+        dpa7fdrSv4evvvyf27Prn0HMzEf29fUsOtEz/+fMOP8fREOVYgLd6GnquvFT/2w6/vB/0+Kz/zWiZvxW
+        i5wpApLTjpj2P3HCmf8gGqwYHWiFzBbSjZzyc+aWa//711/7rxsy/a9mxDRDqDSDZtiU/6EdJ/+DaKgQ
+        AmiF1rPphE1+VjvtwL8ZO+4CQ3z1P/Xgif+RsVbQ9L9eDcfAbKg2BNAInrQ9vGnz32nb7vxPm3L2f+a0
+        c//L5l/+37zixv9Jm+78X7T34f+l+x/996w/9l81sA/VAFX/vir7lIV/+9bf/O9atPyfsl/Pf2xYzXfS
+        X5ABIDZUKwODgneHu7pP/9+Myaf++1Xv+C/r2fNTzrtdECqNAhR9OsEuANFQIQYGZZ+uSwpe7f9BWNG1
+        +Y+Ce5M6VAoDSLt1/gSpA9FQoQEFDAwActcEm2JqGTsAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="italiacToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -1414,15 +1414,15 @@
   <data name="underlineToolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH3SURBVDhPY8AG9OPnCxgkzv9tnLL4PwiD2CAxqDRhYJKy
-        uLRk9sG/d59//g/CIDZIDCpNANTXM5mnL/h5+MqL/42LTvwD4a2nHv0HiYHkoKpwA4PEhS5R9Vv+XHzw
-        7r9ZwuK/ILz1zJP/rqVr/xjGz3eGKsMNjBLnXll18Pb/mVuv/jdKmHcPhOsWnvpfOuvof5AcVBl2oB0+
-        T9Y6eeHf83ff/ncuXvpHN3aWPwjb5i3607zy8n+DqDl/QWqgyjGBfvTM6Y3zjvxbtv/Of62YqX+M02ay
-        grBW9NQ/edNP/fcqX/1PJ2rWVKhyVKDiMZFdK2rSn00nHv6Pb9z4Tztq6mSoFIN2xNTJbsUr/8X1HPuv
-        FTHxD0gtVAoB1EMmRwVXrP+7YO+9/5ZZ8/6oh0z6j4wNU+b8ieo+9V83YRZQbnIUVBsCqAb1vatfePp/
-        zeIr/wtnX/hfuejy/+aV1//3bbj1f87O+/9XHnoMFL/0365w63+QWqg2CFD079XVjp7wp3bJlf+GybP+
-        KPv3/MeGtWKm//GoO/pfza/nD0gPVDvQdv/u7R6l6/+Htx36r+zZ9kcrtJ4NKgUHIDElj7Y/zuV7/5ul
-        r/yv6Ne9HSrFwKDs3fpSwav9Pwgrenc0Q4UxgJJPVytMnSxQD1SYQgAzkVxMoQHt/wH8+EwCq8LYcwAA
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH3SURBVDhPY8AG9OPnC+gnzP9tnLL4PwiD2CAxqDRhYJKy
+        uLR49oG/d59//g/CIDZIDCpNANTXM5mnz/95+MqL/w0Lj/8D4a2nHv0HiYHkoKpwA4PEhS5R9Vv+XHzw
+        7r9Z/OK/ILz1zJP/LqVr/xjGz3eGKsMNjBLnXll18Pb/mVuv/jdKmHcPhOsWnvpfOuvof5AcVBl2oB0+
+        T9Y6aeHf83ff/ncqXvJHN3aWPwjb5C3807zy8n+DyDl/QWqgyjGBfvTM6Q1zD/9btv/Of62YKX+M02ay
+        grBW9JQ/edNP/fcqX/VPJ2rWVKhyVKDiMZFdK2rin00nHv6Pb9jwTztq6mSoFIN2xNTJbsUr/sX1HPuv
+        FTHhD0gtVAoB1EMmRwWVr/+7YO+9/xZZc/+oh0z6j4wNUmb/ieo+9V8nYSZQbnIUVBsCqAb1vatfePp/
+        zeIr/wtnX/hfuejy/+aV1//3bbj1f87O+/9XHnoMFL/0365w63+QWqg2CFD079XViu7/U7vkyn+D5Jl/
+        lP17/mPDWjHT/njUHf2v5tv9B6QHqh1ou3/3do/S9f/D2w79V/Zo/aMVWs8GlYIDkJiSe+sf5/K9/83S
+        V/5X9OveDpViYFD2bn2p4NX+H4QVvTuaocIYQMmnqxWmTgaoBypMIYCZSC6m0ID2/wBxsEvKnRc1KQAA
         AABJRU5ErkJggg==
 </value>
   </data>
@@ -6889,6 +6889,426 @@
   <data name="foreColorPicker1.Items1679" xml:space="preserve">
     <value>Yellowgreen</value>
   </data>
+  <data name="foreColorPicker1.Items1680" xml:space="preserve">
+    <value>Aliceblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1681" xml:space="preserve">
+    <value>Antiquewhite</value>
+  </data>
+  <data name="foreColorPicker1.Items1682" xml:space="preserve">
+    <value>Aqua</value>
+  </data>
+  <data name="foreColorPicker1.Items1683" xml:space="preserve">
+    <value>Aquamarine</value>
+  </data>
+  <data name="foreColorPicker1.Items1684" xml:space="preserve">
+    <value>Azure</value>
+  </data>
+  <data name="foreColorPicker1.Items1685" xml:space="preserve">
+    <value>Beige</value>
+  </data>
+  <data name="foreColorPicker1.Items1686" xml:space="preserve">
+    <value>Bisque</value>
+  </data>
+  <data name="foreColorPicker1.Items1687" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="foreColorPicker1.Items1688" xml:space="preserve">
+    <value>Blanchedalmond</value>
+  </data>
+  <data name="foreColorPicker1.Items1689" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="foreColorPicker1.Items1690" xml:space="preserve">
+    <value>Blueviolet</value>
+  </data>
+  <data name="foreColorPicker1.Items1691" xml:space="preserve">
+    <value>Brown</value>
+  </data>
+  <data name="foreColorPicker1.Items1692" xml:space="preserve">
+    <value>Burlywood</value>
+  </data>
+  <data name="foreColorPicker1.Items1693" xml:space="preserve">
+    <value>Cadetblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1694" xml:space="preserve">
+    <value>Chartreuse</value>
+  </data>
+  <data name="foreColorPicker1.Items1695" xml:space="preserve">
+    <value>Chocolate</value>
+  </data>
+  <data name="foreColorPicker1.Items1696" xml:space="preserve">
+    <value>Coral</value>
+  </data>
+  <data name="foreColorPicker1.Items1697" xml:space="preserve">
+    <value>Cornflowerblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1698" xml:space="preserve">
+    <value>Cornsilk</value>
+  </data>
+  <data name="foreColorPicker1.Items1699" xml:space="preserve">
+    <value>Crimson</value>
+  </data>
+  <data name="foreColorPicker1.Items1700" xml:space="preserve">
+    <value>Cyan</value>
+  </data>
+  <data name="foreColorPicker1.Items1701" xml:space="preserve">
+    <value>Darkblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1702" xml:space="preserve">
+    <value>Darkcyan</value>
+  </data>
+  <data name="foreColorPicker1.Items1703" xml:space="preserve">
+    <value>Darkgoldenrod</value>
+  </data>
+  <data name="foreColorPicker1.Items1704" xml:space="preserve">
+    <value>Darkgray</value>
+  </data>
+  <data name="foreColorPicker1.Items1705" xml:space="preserve">
+    <value>Darkgreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1706" xml:space="preserve">
+    <value>Darkkhaki</value>
+  </data>
+  <data name="foreColorPicker1.Items1707" xml:space="preserve">
+    <value>Darkmagenta</value>
+  </data>
+  <data name="foreColorPicker1.Items1708" xml:space="preserve">
+    <value>Darkolivegreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1709" xml:space="preserve">
+    <value>Darkorange</value>
+  </data>
+  <data name="foreColorPicker1.Items1710" xml:space="preserve">
+    <value>Darkorchid</value>
+  </data>
+  <data name="foreColorPicker1.Items1711" xml:space="preserve">
+    <value>Darkred</value>
+  </data>
+  <data name="foreColorPicker1.Items1712" xml:space="preserve">
+    <value>Darksalmon</value>
+  </data>
+  <data name="foreColorPicker1.Items1713" xml:space="preserve">
+    <value>Darkseagreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1714" xml:space="preserve">
+    <value>Darkslateblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1715" xml:space="preserve">
+    <value>Darkslategray</value>
+  </data>
+  <data name="foreColorPicker1.Items1716" xml:space="preserve">
+    <value>Darkturquoise</value>
+  </data>
+  <data name="foreColorPicker1.Items1717" xml:space="preserve">
+    <value>Darkviolet</value>
+  </data>
+  <data name="foreColorPicker1.Items1718" xml:space="preserve">
+    <value>Deeppink</value>
+  </data>
+  <data name="foreColorPicker1.Items1719" xml:space="preserve">
+    <value>Deepskyblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1720" xml:space="preserve">
+    <value>Dimgray</value>
+  </data>
+  <data name="foreColorPicker1.Items1721" xml:space="preserve">
+    <value>Dodgerblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1722" xml:space="preserve">
+    <value>Firebrick</value>
+  </data>
+  <data name="foreColorPicker1.Items1723" xml:space="preserve">
+    <value>Floralwhite</value>
+  </data>
+  <data name="foreColorPicker1.Items1724" xml:space="preserve">
+    <value>Forestgreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1725" xml:space="preserve">
+    <value>Fuchsia</value>
+  </data>
+  <data name="foreColorPicker1.Items1726" xml:space="preserve">
+    <value>Gainsboro</value>
+  </data>
+  <data name="foreColorPicker1.Items1727" xml:space="preserve">
+    <value>Ghostwhite</value>
+  </data>
+  <data name="foreColorPicker1.Items1728" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="foreColorPicker1.Items1729" xml:space="preserve">
+    <value>Goldenrod</value>
+  </data>
+  <data name="foreColorPicker1.Items1730" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="foreColorPicker1.Items1731" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="foreColorPicker1.Items1732" xml:space="preserve">
+    <value>Greenyellow</value>
+  </data>
+  <data name="foreColorPicker1.Items1733" xml:space="preserve">
+    <value>Honeydew</value>
+  </data>
+  <data name="foreColorPicker1.Items1734" xml:space="preserve">
+    <value>Hotpink</value>
+  </data>
+  <data name="foreColorPicker1.Items1735" xml:space="preserve">
+    <value>Indianred</value>
+  </data>
+  <data name="foreColorPicker1.Items1736" xml:space="preserve">
+    <value>Indigo</value>
+  </data>
+  <data name="foreColorPicker1.Items1737" xml:space="preserve">
+    <value>Ivory</value>
+  </data>
+  <data name="foreColorPicker1.Items1738" xml:space="preserve">
+    <value>Khaki</value>
+  </data>
+  <data name="foreColorPicker1.Items1739" xml:space="preserve">
+    <value>Lavender</value>
+  </data>
+  <data name="foreColorPicker1.Items1740" xml:space="preserve">
+    <value>Lavenderblush</value>
+  </data>
+  <data name="foreColorPicker1.Items1741" xml:space="preserve">
+    <value>Lawngreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1742" xml:space="preserve">
+    <value>Lemonchiffon</value>
+  </data>
+  <data name="foreColorPicker1.Items1743" xml:space="preserve">
+    <value>Lightblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1744" xml:space="preserve">
+    <value>Lightcoral</value>
+  </data>
+  <data name="foreColorPicker1.Items1745" xml:space="preserve">
+    <value>Lightcyan</value>
+  </data>
+  <data name="foreColorPicker1.Items1746" xml:space="preserve">
+    <value>Lightgoldenrodyellow</value>
+  </data>
+  <data name="foreColorPicker1.Items1747" xml:space="preserve">
+    <value>Lightgreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1748" xml:space="preserve">
+    <value>Lightgrey</value>
+  </data>
+  <data name="foreColorPicker1.Items1749" xml:space="preserve">
+    <value>Lightpink</value>
+  </data>
+  <data name="foreColorPicker1.Items1750" xml:space="preserve">
+    <value>Lightsalmon</value>
+  </data>
+  <data name="foreColorPicker1.Items1751" xml:space="preserve">
+    <value>Lightseagreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1752" xml:space="preserve">
+    <value>Lightskyblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1753" xml:space="preserve">
+    <value>Lightslategrey</value>
+  </data>
+  <data name="foreColorPicker1.Items1754" xml:space="preserve">
+    <value>Lightsteelblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1755" xml:space="preserve">
+    <value>Lightyellow</value>
+  </data>
+  <data name="foreColorPicker1.Items1756" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="foreColorPicker1.Items1757" xml:space="preserve">
+    <value>Limegreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1758" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="foreColorPicker1.Items1759" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="foreColorPicker1.Items1760" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="foreColorPicker1.Items1761" xml:space="preserve">
+    <value>Mediumaquamarine</value>
+  </data>
+  <data name="foreColorPicker1.Items1762" xml:space="preserve">
+    <value>Mediumblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1763" xml:space="preserve">
+    <value>Mediumorchid</value>
+  </data>
+  <data name="foreColorPicker1.Items1764" xml:space="preserve">
+    <value>Mediumpurple</value>
+  </data>
+  <data name="foreColorPicker1.Items1765" xml:space="preserve">
+    <value>Mediumseagreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1766" xml:space="preserve">
+    <value>Mediumslateblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1767" xml:space="preserve">
+    <value>Mediumspringgreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1768" xml:space="preserve">
+    <value>Mediumturquoise</value>
+  </data>
+  <data name="foreColorPicker1.Items1769" xml:space="preserve">
+    <value>Mediumvioletred</value>
+  </data>
+  <data name="foreColorPicker1.Items1770" xml:space="preserve">
+    <value>Midnightblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1771" xml:space="preserve">
+    <value>Mintcream</value>
+  </data>
+  <data name="foreColorPicker1.Items1772" xml:space="preserve">
+    <value>Mistyrose</value>
+  </data>
+  <data name="foreColorPicker1.Items1773" xml:space="preserve">
+    <value>Moccasin</value>
+  </data>
+  <data name="foreColorPicker1.Items1774" xml:space="preserve">
+    <value>Navajowhite</value>
+  </data>
+  <data name="foreColorPicker1.Items1775" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="foreColorPicker1.Items1776" xml:space="preserve">
+    <value>Oldlace</value>
+  </data>
+  <data name="foreColorPicker1.Items1777" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="foreColorPicker1.Items1778" xml:space="preserve">
+    <value>Olivedrab</value>
+  </data>
+  <data name="foreColorPicker1.Items1779" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="foreColorPicker1.Items1780" xml:space="preserve">
+    <value>Orangered</value>
+  </data>
+  <data name="foreColorPicker1.Items1781" xml:space="preserve">
+    <value>Orchid</value>
+  </data>
+  <data name="foreColorPicker1.Items1782" xml:space="preserve">
+    <value>Palegoldenrod</value>
+  </data>
+  <data name="foreColorPicker1.Items1783" xml:space="preserve">
+    <value>Palegreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1784" xml:space="preserve">
+    <value>Paleturquoise</value>
+  </data>
+  <data name="foreColorPicker1.Items1785" xml:space="preserve">
+    <value>Palevioletred</value>
+  </data>
+  <data name="foreColorPicker1.Items1786" xml:space="preserve">
+    <value>Papayawhip</value>
+  </data>
+  <data name="foreColorPicker1.Items1787" xml:space="preserve">
+    <value>Peachpuff</value>
+  </data>
+  <data name="foreColorPicker1.Items1788" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="foreColorPicker1.Items1789" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="foreColorPicker1.Items1790" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="foreColorPicker1.Items1791" xml:space="preserve">
+    <value>Powderblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1792" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="foreColorPicker1.Items1793" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="foreColorPicker1.Items1794" xml:space="preserve">
+    <value>Rosybrown</value>
+  </data>
+  <data name="foreColorPicker1.Items1795" xml:space="preserve">
+    <value>Royalblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1796" xml:space="preserve">
+    <value>Saddlebrown</value>
+  </data>
+  <data name="foreColorPicker1.Items1797" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="foreColorPicker1.Items1798" xml:space="preserve">
+    <value>Sandybrown</value>
+  </data>
+  <data name="foreColorPicker1.Items1799" xml:space="preserve">
+    <value>Seagreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1800" xml:space="preserve">
+    <value>Seashell</value>
+  </data>
+  <data name="foreColorPicker1.Items1801" xml:space="preserve">
+    <value>Sienna</value>
+  </data>
+  <data name="foreColorPicker1.Items1802" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="foreColorPicker1.Items1803" xml:space="preserve">
+    <value>Skyblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1804" xml:space="preserve">
+    <value>Slateblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1805" xml:space="preserve">
+    <value>Slategray</value>
+  </data>
+  <data name="foreColorPicker1.Items1806" xml:space="preserve">
+    <value>Snow</value>
+  </data>
+  <data name="foreColorPicker1.Items1807" xml:space="preserve">
+    <value>Springgreen</value>
+  </data>
+  <data name="foreColorPicker1.Items1808" xml:space="preserve">
+    <value>Steelblue</value>
+  </data>
+  <data name="foreColorPicker1.Items1809" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="foreColorPicker1.Items1810" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="foreColorPicker1.Items1811" xml:space="preserve">
+    <value>Thistle</value>
+  </data>
+  <data name="foreColorPicker1.Items1812" xml:space="preserve">
+    <value>Tomato</value>
+  </data>
+  <data name="foreColorPicker1.Items1813" xml:space="preserve">
+    <value>Turquoise</value>
+  </data>
+  <data name="foreColorPicker1.Items1814" xml:space="preserve">
+    <value>Violet</value>
+  </data>
+  <data name="foreColorPicker1.Items1815" xml:space="preserve">
+    <value>Wheat</value>
+  </data>
+  <data name="foreColorPicker1.Items1816" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="foreColorPicker1.Items1817" xml:space="preserve">
+    <value>Whitesmoke</value>
+  </data>
+  <data name="foreColorPicker1.Items1818" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="foreColorPicker1.Items1819" xml:space="preserve">
+    <value>Yellowgreen</value>
+  </data>
   <data name="foreColorPicker1.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 12</value>
   </data>
@@ -6902,7 +7322,7 @@
     <value>foreColorPicker1</value>
   </data>
   <data name="&gt;&gt;foreColorPicker1.Type" xml:space="preserve">
-    <value>fyiReporting.RdlDesign.ColorPicker, RdlDesigner, Version=4.12.5687.22899, Culture=neutral, PublicKeyToken=null</value>
+    <value>fyiReporting.RdlDesign.ColorPicker, RdlDesigner, Version=4.12.5687.23006, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;foreColorPicker1.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -11956,6 +12376,426 @@
   <data name="backColorPicker1.Items1679" xml:space="preserve">
     <value>Yellowgreen</value>
   </data>
+  <data name="backColorPicker1.Items1680" xml:space="preserve">
+    <value>Aliceblue</value>
+  </data>
+  <data name="backColorPicker1.Items1681" xml:space="preserve">
+    <value>Antiquewhite</value>
+  </data>
+  <data name="backColorPicker1.Items1682" xml:space="preserve">
+    <value>Aqua</value>
+  </data>
+  <data name="backColorPicker1.Items1683" xml:space="preserve">
+    <value>Aquamarine</value>
+  </data>
+  <data name="backColorPicker1.Items1684" xml:space="preserve">
+    <value>Azure</value>
+  </data>
+  <data name="backColorPicker1.Items1685" xml:space="preserve">
+    <value>Beige</value>
+  </data>
+  <data name="backColorPicker1.Items1686" xml:space="preserve">
+    <value>Bisque</value>
+  </data>
+  <data name="backColorPicker1.Items1687" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="backColorPicker1.Items1688" xml:space="preserve">
+    <value>Blanchedalmond</value>
+  </data>
+  <data name="backColorPicker1.Items1689" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="backColorPicker1.Items1690" xml:space="preserve">
+    <value>Blueviolet</value>
+  </data>
+  <data name="backColorPicker1.Items1691" xml:space="preserve">
+    <value>Brown</value>
+  </data>
+  <data name="backColorPicker1.Items1692" xml:space="preserve">
+    <value>Burlywood</value>
+  </data>
+  <data name="backColorPicker1.Items1693" xml:space="preserve">
+    <value>Cadetblue</value>
+  </data>
+  <data name="backColorPicker1.Items1694" xml:space="preserve">
+    <value>Chartreuse</value>
+  </data>
+  <data name="backColorPicker1.Items1695" xml:space="preserve">
+    <value>Chocolate</value>
+  </data>
+  <data name="backColorPicker1.Items1696" xml:space="preserve">
+    <value>Coral</value>
+  </data>
+  <data name="backColorPicker1.Items1697" xml:space="preserve">
+    <value>Cornflowerblue</value>
+  </data>
+  <data name="backColorPicker1.Items1698" xml:space="preserve">
+    <value>Cornsilk</value>
+  </data>
+  <data name="backColorPicker1.Items1699" xml:space="preserve">
+    <value>Crimson</value>
+  </data>
+  <data name="backColorPicker1.Items1700" xml:space="preserve">
+    <value>Cyan</value>
+  </data>
+  <data name="backColorPicker1.Items1701" xml:space="preserve">
+    <value>Darkblue</value>
+  </data>
+  <data name="backColorPicker1.Items1702" xml:space="preserve">
+    <value>Darkcyan</value>
+  </data>
+  <data name="backColorPicker1.Items1703" xml:space="preserve">
+    <value>Darkgoldenrod</value>
+  </data>
+  <data name="backColorPicker1.Items1704" xml:space="preserve">
+    <value>Darkgray</value>
+  </data>
+  <data name="backColorPicker1.Items1705" xml:space="preserve">
+    <value>Darkgreen</value>
+  </data>
+  <data name="backColorPicker1.Items1706" xml:space="preserve">
+    <value>Darkkhaki</value>
+  </data>
+  <data name="backColorPicker1.Items1707" xml:space="preserve">
+    <value>Darkmagenta</value>
+  </data>
+  <data name="backColorPicker1.Items1708" xml:space="preserve">
+    <value>Darkolivegreen</value>
+  </data>
+  <data name="backColorPicker1.Items1709" xml:space="preserve">
+    <value>Darkorange</value>
+  </data>
+  <data name="backColorPicker1.Items1710" xml:space="preserve">
+    <value>Darkorchid</value>
+  </data>
+  <data name="backColorPicker1.Items1711" xml:space="preserve">
+    <value>Darkred</value>
+  </data>
+  <data name="backColorPicker1.Items1712" xml:space="preserve">
+    <value>Darksalmon</value>
+  </data>
+  <data name="backColorPicker1.Items1713" xml:space="preserve">
+    <value>Darkseagreen</value>
+  </data>
+  <data name="backColorPicker1.Items1714" xml:space="preserve">
+    <value>Darkslateblue</value>
+  </data>
+  <data name="backColorPicker1.Items1715" xml:space="preserve">
+    <value>Darkslategray</value>
+  </data>
+  <data name="backColorPicker1.Items1716" xml:space="preserve">
+    <value>Darkturquoise</value>
+  </data>
+  <data name="backColorPicker1.Items1717" xml:space="preserve">
+    <value>Darkviolet</value>
+  </data>
+  <data name="backColorPicker1.Items1718" xml:space="preserve">
+    <value>Deeppink</value>
+  </data>
+  <data name="backColorPicker1.Items1719" xml:space="preserve">
+    <value>Deepskyblue</value>
+  </data>
+  <data name="backColorPicker1.Items1720" xml:space="preserve">
+    <value>Dimgray</value>
+  </data>
+  <data name="backColorPicker1.Items1721" xml:space="preserve">
+    <value>Dodgerblue</value>
+  </data>
+  <data name="backColorPicker1.Items1722" xml:space="preserve">
+    <value>Firebrick</value>
+  </data>
+  <data name="backColorPicker1.Items1723" xml:space="preserve">
+    <value>Floralwhite</value>
+  </data>
+  <data name="backColorPicker1.Items1724" xml:space="preserve">
+    <value>Forestgreen</value>
+  </data>
+  <data name="backColorPicker1.Items1725" xml:space="preserve">
+    <value>Fuchsia</value>
+  </data>
+  <data name="backColorPicker1.Items1726" xml:space="preserve">
+    <value>Gainsboro</value>
+  </data>
+  <data name="backColorPicker1.Items1727" xml:space="preserve">
+    <value>Ghostwhite</value>
+  </data>
+  <data name="backColorPicker1.Items1728" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="backColorPicker1.Items1729" xml:space="preserve">
+    <value>Goldenrod</value>
+  </data>
+  <data name="backColorPicker1.Items1730" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="backColorPicker1.Items1731" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="backColorPicker1.Items1732" xml:space="preserve">
+    <value>Greenyellow</value>
+  </data>
+  <data name="backColorPicker1.Items1733" xml:space="preserve">
+    <value>Honeydew</value>
+  </data>
+  <data name="backColorPicker1.Items1734" xml:space="preserve">
+    <value>Hotpink</value>
+  </data>
+  <data name="backColorPicker1.Items1735" xml:space="preserve">
+    <value>Indianred</value>
+  </data>
+  <data name="backColorPicker1.Items1736" xml:space="preserve">
+    <value>Indigo</value>
+  </data>
+  <data name="backColorPicker1.Items1737" xml:space="preserve">
+    <value>Ivory</value>
+  </data>
+  <data name="backColorPicker1.Items1738" xml:space="preserve">
+    <value>Khaki</value>
+  </data>
+  <data name="backColorPicker1.Items1739" xml:space="preserve">
+    <value>Lavender</value>
+  </data>
+  <data name="backColorPicker1.Items1740" xml:space="preserve">
+    <value>Lavenderblush</value>
+  </data>
+  <data name="backColorPicker1.Items1741" xml:space="preserve">
+    <value>Lawngreen</value>
+  </data>
+  <data name="backColorPicker1.Items1742" xml:space="preserve">
+    <value>Lemonchiffon</value>
+  </data>
+  <data name="backColorPicker1.Items1743" xml:space="preserve">
+    <value>Lightblue</value>
+  </data>
+  <data name="backColorPicker1.Items1744" xml:space="preserve">
+    <value>Lightcoral</value>
+  </data>
+  <data name="backColorPicker1.Items1745" xml:space="preserve">
+    <value>Lightcyan</value>
+  </data>
+  <data name="backColorPicker1.Items1746" xml:space="preserve">
+    <value>Lightgoldenrodyellow</value>
+  </data>
+  <data name="backColorPicker1.Items1747" xml:space="preserve">
+    <value>Lightgreen</value>
+  </data>
+  <data name="backColorPicker1.Items1748" xml:space="preserve">
+    <value>Lightgrey</value>
+  </data>
+  <data name="backColorPicker1.Items1749" xml:space="preserve">
+    <value>Lightpink</value>
+  </data>
+  <data name="backColorPicker1.Items1750" xml:space="preserve">
+    <value>Lightsalmon</value>
+  </data>
+  <data name="backColorPicker1.Items1751" xml:space="preserve">
+    <value>Lightseagreen</value>
+  </data>
+  <data name="backColorPicker1.Items1752" xml:space="preserve">
+    <value>Lightskyblue</value>
+  </data>
+  <data name="backColorPicker1.Items1753" xml:space="preserve">
+    <value>Lightslategrey</value>
+  </data>
+  <data name="backColorPicker1.Items1754" xml:space="preserve">
+    <value>Lightsteelblue</value>
+  </data>
+  <data name="backColorPicker1.Items1755" xml:space="preserve">
+    <value>Lightyellow</value>
+  </data>
+  <data name="backColorPicker1.Items1756" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="backColorPicker1.Items1757" xml:space="preserve">
+    <value>Limegreen</value>
+  </data>
+  <data name="backColorPicker1.Items1758" xml:space="preserve">
+    <value>Linen</value>
+  </data>
+  <data name="backColorPicker1.Items1759" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="backColorPicker1.Items1760" xml:space="preserve">
+    <value>Maroon</value>
+  </data>
+  <data name="backColorPicker1.Items1761" xml:space="preserve">
+    <value>Mediumaquamarine</value>
+  </data>
+  <data name="backColorPicker1.Items1762" xml:space="preserve">
+    <value>Mediumblue</value>
+  </data>
+  <data name="backColorPicker1.Items1763" xml:space="preserve">
+    <value>Mediumorchid</value>
+  </data>
+  <data name="backColorPicker1.Items1764" xml:space="preserve">
+    <value>Mediumpurple</value>
+  </data>
+  <data name="backColorPicker1.Items1765" xml:space="preserve">
+    <value>Mediumseagreen</value>
+  </data>
+  <data name="backColorPicker1.Items1766" xml:space="preserve">
+    <value>Mediumslateblue</value>
+  </data>
+  <data name="backColorPicker1.Items1767" xml:space="preserve">
+    <value>Mediumspringgreen</value>
+  </data>
+  <data name="backColorPicker1.Items1768" xml:space="preserve">
+    <value>Mediumturquoise</value>
+  </data>
+  <data name="backColorPicker1.Items1769" xml:space="preserve">
+    <value>Mediumvioletred</value>
+  </data>
+  <data name="backColorPicker1.Items1770" xml:space="preserve">
+    <value>Midnightblue</value>
+  </data>
+  <data name="backColorPicker1.Items1771" xml:space="preserve">
+    <value>Mintcream</value>
+  </data>
+  <data name="backColorPicker1.Items1772" xml:space="preserve">
+    <value>Mistyrose</value>
+  </data>
+  <data name="backColorPicker1.Items1773" xml:space="preserve">
+    <value>Moccasin</value>
+  </data>
+  <data name="backColorPicker1.Items1774" xml:space="preserve">
+    <value>Navajowhite</value>
+  </data>
+  <data name="backColorPicker1.Items1775" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="backColorPicker1.Items1776" xml:space="preserve">
+    <value>Oldlace</value>
+  </data>
+  <data name="backColorPicker1.Items1777" xml:space="preserve">
+    <value>Olive</value>
+  </data>
+  <data name="backColorPicker1.Items1778" xml:space="preserve">
+    <value>Olivedrab</value>
+  </data>
+  <data name="backColorPicker1.Items1779" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="backColorPicker1.Items1780" xml:space="preserve">
+    <value>Orangered</value>
+  </data>
+  <data name="backColorPicker1.Items1781" xml:space="preserve">
+    <value>Orchid</value>
+  </data>
+  <data name="backColorPicker1.Items1782" xml:space="preserve">
+    <value>Palegoldenrod</value>
+  </data>
+  <data name="backColorPicker1.Items1783" xml:space="preserve">
+    <value>Palegreen</value>
+  </data>
+  <data name="backColorPicker1.Items1784" xml:space="preserve">
+    <value>Paleturquoise</value>
+  </data>
+  <data name="backColorPicker1.Items1785" xml:space="preserve">
+    <value>Palevioletred</value>
+  </data>
+  <data name="backColorPicker1.Items1786" xml:space="preserve">
+    <value>Papayawhip</value>
+  </data>
+  <data name="backColorPicker1.Items1787" xml:space="preserve">
+    <value>Peachpuff</value>
+  </data>
+  <data name="backColorPicker1.Items1788" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="backColorPicker1.Items1789" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="backColorPicker1.Items1790" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="backColorPicker1.Items1791" xml:space="preserve">
+    <value>Powderblue</value>
+  </data>
+  <data name="backColorPicker1.Items1792" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="backColorPicker1.Items1793" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="backColorPicker1.Items1794" xml:space="preserve">
+    <value>Rosybrown</value>
+  </data>
+  <data name="backColorPicker1.Items1795" xml:space="preserve">
+    <value>Royalblue</value>
+  </data>
+  <data name="backColorPicker1.Items1796" xml:space="preserve">
+    <value>Saddlebrown</value>
+  </data>
+  <data name="backColorPicker1.Items1797" xml:space="preserve">
+    <value>Salmon</value>
+  </data>
+  <data name="backColorPicker1.Items1798" xml:space="preserve">
+    <value>Sandybrown</value>
+  </data>
+  <data name="backColorPicker1.Items1799" xml:space="preserve">
+    <value>Seagreen</value>
+  </data>
+  <data name="backColorPicker1.Items1800" xml:space="preserve">
+    <value>Seashell</value>
+  </data>
+  <data name="backColorPicker1.Items1801" xml:space="preserve">
+    <value>Sienna</value>
+  </data>
+  <data name="backColorPicker1.Items1802" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="backColorPicker1.Items1803" xml:space="preserve">
+    <value>Skyblue</value>
+  </data>
+  <data name="backColorPicker1.Items1804" xml:space="preserve">
+    <value>Slateblue</value>
+  </data>
+  <data name="backColorPicker1.Items1805" xml:space="preserve">
+    <value>Slategray</value>
+  </data>
+  <data name="backColorPicker1.Items1806" xml:space="preserve">
+    <value>Snow</value>
+  </data>
+  <data name="backColorPicker1.Items1807" xml:space="preserve">
+    <value>Springgreen</value>
+  </data>
+  <data name="backColorPicker1.Items1808" xml:space="preserve">
+    <value>Steelblue</value>
+  </data>
+  <data name="backColorPicker1.Items1809" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="backColorPicker1.Items1810" xml:space="preserve">
+    <value>Teal</value>
+  </data>
+  <data name="backColorPicker1.Items1811" xml:space="preserve">
+    <value>Thistle</value>
+  </data>
+  <data name="backColorPicker1.Items1812" xml:space="preserve">
+    <value>Tomato</value>
+  </data>
+  <data name="backColorPicker1.Items1813" xml:space="preserve">
+    <value>Turquoise</value>
+  </data>
+  <data name="backColorPicker1.Items1814" xml:space="preserve">
+    <value>Violet</value>
+  </data>
+  <data name="backColorPicker1.Items1815" xml:space="preserve">
+    <value>Wheat</value>
+  </data>
+  <data name="backColorPicker1.Items1816" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="backColorPicker1.Items1817" xml:space="preserve">
+    <value>Whitesmoke</value>
+  </data>
+  <data name="backColorPicker1.Items1818" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="backColorPicker1.Items1819" xml:space="preserve">
+    <value>Yellowgreen</value>
+  </data>
   <data name="backColorPicker1.Location" type="System.Drawing.Point, System.Drawing">
     <value>273, 12</value>
   </data>
@@ -11969,7 +12809,7 @@
     <value>backColorPicker1</value>
   </data>
   <data name="&gt;&gt;backColorPicker1.Type" xml:space="preserve">
-    <value>fyiReporting.RdlDesign.ColorPicker, RdlDesigner, Version=4.12.5687.22899, Culture=neutral, PublicKeyToken=null</value>
+    <value>fyiReporting.RdlDesign.ColorPicker, RdlDesigner, Version=4.12.5687.23006, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;backColorPicker1.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -12125,7 +12965,7 @@
     <value>mainProperties</value>
   </data>
   <data name="&gt;&gt;mainProperties.Type" xml:space="preserve">
-    <value>fyiReporting.RdlDesign.PropertyCtl, RdlDesigner, Version=4.12.5687.22899, Culture=neutral, PublicKeyToken=null</value>
+    <value>fyiReporting.RdlDesign.PropertyCtl, RdlDesigner, Version=4.12.5687.23006, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;mainProperties.Parent" xml:space="preserve">
     <value>$this</value>

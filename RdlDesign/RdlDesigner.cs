@@ -1328,6 +1328,8 @@ namespace fyiReporting.RdlDesign
                 mc.CurrentInsert = null;
                 ctlMenuInsertCurrent = null;
             }
+
+            mc.CurrentInsert = null;
         }
 
         private void OpenSubReportEvent(object sender, SubReportEventArgs e)
