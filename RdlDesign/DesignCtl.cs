@@ -34,7 +34,12 @@ using fyiReporting.RdlDesign.Resources;
 
 namespace fyiReporting.RdlDesign
 {
-	/// <summary>
+    using System.ComponentModel;
+    using System.Threading;
+
+    using fyiReporting.RdlDesign.InsertParams;
+
+    /// <summary>
 	/// DesignCtl is a designer view of an RDL report
 	/// </summary>
 	public partial class DesignCtl
@@ -1664,6 +1669,23 @@ namespace fyiReporting.RdlDesign
 				case "Subreport":
 					menuInsertSubreport_Click(sender, e);
 					break;
+                case "Parameter":
+                    var rpc = new ReportParameterCtl(DrawCtl);
+			        var manualResetEvent = new ManualResetEvent(false);
+			        var form = new InsertParameterForm(manualResetEvent);
+                    foreach (ReportParm parameter in rpc.lbParameters.Items)
+                    {
+                        form.ListParameters.Items.Add(parameter);
+                    }
+			        form.ShowDialog();
+			        
+                    manualResetEvent.WaitOne();
+                    var selectedItem = form.ListParameters.SelectedItem as ReportParm;
+			        if (selectedItem != null)
+			        {
+			            this.InsertParameter(selectedItem.Name);
+			        }
+                    break;
 				default:
 					break;
 			}
@@ -2593,7 +2615,17 @@ namespace fyiReporting.RdlDesign
             //}
 			SetFocus();
 		}
-	
+
+        public void InsertParameter(string parameterName)
+        {
+            string reportItem =
+                string.Format(
+                    "<ReportItems><Textbox><Height>12pt</Height><Width>1in</Width><Value>=Parameters!{0}.Value</Value><ZIndex>1</ZIndex></Textbox></ReportItems>",
+                    parameterName);
+
+            menuInsertReportItem(this, EventArgs.Empty, reportItem);
+        }
+
 		private void menuInsertTextbox_Click(object sender, EventArgs e)
 		{
 			// Josh: Added a default ZIndex of 1 so that a "Backgroud" image can be applied to the form.

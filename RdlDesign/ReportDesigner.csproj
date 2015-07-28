@@ -243,6 +243,9 @@
     <EmbeddedResource Include="ImageCtl.ru-RU.resx">
       <DependentUpon>ImageCtl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InsertParams\InsertParameterForm.resx">
+      <DependentUpon>InsertParameterForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InteractivityCtl.ru-RU.resx">
       <DependentUpon>InteractivityCtl.cs</DependentUpon>
     </EmbeddedResource>
@@ -472,6 +475,12 @@
     </Compile>
     <Compile Include="DesignRuler.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InsertParams\InsertParameterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertParams\InsertParameterForm.Designer.cs">
+      <DependentUpon>InsertParameterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="RdlProperties\Descriptions.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -1043,8 +1052,7 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>del "d:\repositories\logmaster\libs\fyiReporting\*" /s /q
-robocopy "$(SolutionDir)RdlViewer\RdlReader\bin\$(PlatformName)\$(ConfigurationName)" "d:\Repositories\logmaster\libs\fyiReporting" /e /copyall
-robocopy "$(SolutionDir)RdlDesign\bin\$(PlatformName)\$(ConfigurationName)" "d:\Repositories\logmaster\libs\fyiReporting" /e /copyall</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -885,26 +885,24 @@ namespace fyiReporting.RdlDesign
                     // ----------------------------
 
                     var settings = new PrinterSettings();
-                    cbPageSize.ComboBox.DisplayMember = "PaperName";
+                    this.cbPageSize.ComboBox.DisplayMember = "PaperName";
 
                     var propReport = new PropertyReport(mc.RdlEditor.DrawCtl, mc.RdlEditor.DesignCtl);
 
                     int width = Conversions.MeasurementTypeAsHundrethsOfAnInch(propReport.PageWidth);
                     int height = Conversions.MeasurementTypeAsHundrethsOfAnInch(propReport.PageHeight);
-                    int pageCount = settings.PaperSizes.Count;
 
-                    // This conversion may be better converted to mm instead of hundrethds of an inch
                     int count = 0;
                     bool sizeFound = false;
                     foreach (PaperSize psize in settings.PaperSizes.Cast<PaperSize>().OrderBy(x => x.PaperName))
                     {
-                        cbPageSize.Items.Add(psize);
+                        this.cbPageSize.Items.Add(psize);
 
                         if ((psize.Width == width) &&
                             (psize.Height == height) &&
                             (sizeFound == false))
                         {
-                            cbPageSize.SelectedIndex = count;
+                            this.cbPageSize.SelectedIndex = count;
                             sizeFound = true;
                         }
                         count = count + 1;
@@ -3814,6 +3812,18 @@ namespace fyiReporting.RdlDesign
             propReport.PageHeight = format.Height / 100d + "in";
 
             mainProperties.ResetSelection(mc.RdlEditor.DrawCtl, mc.RdlEditor.DesignCtl);
+        }
+
+        private void btInsertParameter_Click(object sender, EventArgs e)
+        {
+            MDIChild mc = this.ActiveMdiChild as MDIChild;
+            if (mc == null)
+            {
+                return;
+            }
+
+            mc.SetFocus();
+            mc.CurrentInsert = "Parameter";
         }
     }
 
