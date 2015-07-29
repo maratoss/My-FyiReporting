@@ -60,8 +60,9 @@ namespace fyiReporting.RdlDesign
             //editor.Resize += new System.EventHandler(editor_Resize);
             //editor.VScroll += new System.EventHandler(editor_VScroll);
 
-            RegionInfo rinfo = new RegionInfo(CultureInfo.CurrentCulture.LCID);
-            _IsMetric = rinfo.IsMetric;
+            //RegionInfo rinfo = new RegionInfo(CultureInfo.CurrentCulture.LCID);
+            //_IsMetric = rinfo.IsMetric;
+            _IsMetric = true;
             _Intervals = _IsMetric ? 4 : 8;
 
             this.Paint += new PaintEventHandler(DesignRulerPaint);

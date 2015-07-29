@@ -33,5 +33,10 @@ namespace fyiReporting.RdlDesign.InsertParams
             base.OnClosed(e);
             manualResetEvent.Set();
         }
+
+        private void listParameters_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

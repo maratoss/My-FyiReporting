@@ -1679,6 +1679,7 @@ namespace fyiReporting.RdlDesign
 			                form.ListParameters.Items.Add(parameter);
 			            }
 
+                        form.Closed += (o, args) => this.CurrentInsert = null;
 			            form.ShowDialog();
 			        
 			            manualResetEvent.WaitOne();
