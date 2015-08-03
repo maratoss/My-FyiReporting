@@ -36,7 +36,6 @@ namespace fyiReporting.RdlDesign
         {
             InitializeComponent();
 
-
             _GetPassword = new RDL.NeedPassword(this.GetPassword);
 
 
@@ -882,32 +881,6 @@ namespace fyiReporting.RdlDesign
                 ShowEditLines(true);
                 ShowReportItemOutline = this.ShowReportItemOutline;
                 ShowPreviewWaitDialog(false);
-
-                // ------------------------
-
-                var settings = new PrinterSettings();
-                this.cbPageSizes.ComboBox.DisplayMember = "PaperName";
-
-                var propReport = new PropertyReport(this.rdlEditPreview1.DrawCtl, this.rdlEditPreview1.DesignCtl);
-
-                int width = Conversions.MeasurementTypeAsHundrethsOfAnInch(propReport.PageWidth);
-                int height = Conversions.MeasurementTypeAsHundrethsOfAnInch(propReport.PageHeight);
-
-                int count = 0;
-                bool sizeFound = false;
-                foreach (PaperSize psize in settings.PaperSizes.Cast<PaperSize>().OrderBy(x => x.PaperName))
-                {
-                    this.cbPageSizes.Items.Add(psize);
-
-                    if ((psize.Width == width) &&
-                        (psize.Height == height) &&
-                        (sizeFound == false))
-                    {
-                        this.cbPageSizes.SelectedIndex = count;
-                        sizeFound = true;
-                    }
-                    count = count + 1;
-                }
             }
             catch (Exception ex)
             {
@@ -1317,22 +1290,6 @@ namespace fyiReporting.RdlDesign
         private void btnInsertParameter_Click(object sender, EventArgs e)
         {
             CurrentInsert = "Parameter";
-        }
-
-        private void cbPageSizes_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            var format = this.cbPageSizes.SelectedItem as PaperSize;
-
-            if (format == null || format.Width <= 0 || format.Height <= 0)
-            {
-                return;
-            }
-
-            var propReport = new PropertyReport(this.rdlEditPreview1.DrawCtl, this.rdlEditPreview1.DesignCtl);
-            propReport.PageWidth = format.Width / 100d + "in";
-            propReport.PageHeight = format.Height / 100d + "in";
-
-            mainProperties.ResetSelection(this.rdlEditPreview1.DrawCtl, this.rdlEditPreview1.DesignCtl);
         }
     }
 }
