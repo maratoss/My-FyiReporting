@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RdlUserControl));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.rdlEditPreview1 = new fyiReporting.RdlDesign.RdlEditPreview();
-            this.mainProperties = new fyiReporting.RdlDesign.PropertyCtl();
             this.mainTB = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton1 = new System.Windows.Forms.ToolStripButton();
@@ -76,9 +74,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.mainTC = new System.Windows.Forms.TabControl();
+            this.rdlEditPreview1 = new fyiReporting.RdlDesign.RdlEditPreview();
+            this.mainProperties = new fyiReporting.RdlDesign.PropertyCtl();
             this.foreColorPicker1 = new fyiReporting.RdlDesign.ColorPicker();
             this.backColorPicker1 = new fyiReporting.RdlDesign.ColorPicker();
-            this.mainTC = new System.Windows.Forms.TabControl();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -100,22 +100,6 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.mainProperties);
-            // 
-            // rdlEditPreview1
-            // 
-            this.rdlEditPreview1.CurrentInsert = null;
-            resources.ApplyResources(this.rdlEditPreview1, "rdlEditPreview1");
-            this.rdlEditPreview1.Modified = false;
-            this.rdlEditPreview1.Name = "rdlEditPreview1";
-            this.rdlEditPreview1.SelectedText = "";
-            this.rdlEditPreview1.SelectionTool = false;
-            this.rdlEditPreview1.Zoom = 1F;
-            this.rdlEditPreview1.ZoomMode = fyiReporting.RdlViewer.ZoomEnum.UseZoom;
-            // 
-            // mainProperties
-            // 
-            resources.ApplyResources(this.mainProperties, "mainProperties");
-            this.mainProperties.Name = "mainProperties";
             // 
             // mainTB
             // 
@@ -401,16 +385,16 @@
             // printToolStripButton2
             // 
             this.printToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.printToolStripButton2.Image = global::fyiReporting.RdlDesign.Properties.Resources.document_print;
             resources.ApplyResources(this.printToolStripButton2, "printToolStripButton2");
+            this.printToolStripButton2.Image = global::fyiReporting.RdlDesign.Properties.Resources.document_print;
             this.printToolStripButton2.Name = "printToolStripButton2";
             this.printToolStripButton2.Tag = "Print";
             this.printToolStripButton2.Click += new System.EventHandler(this.printToolStripButton2_Click);
             // 
             // zoomToolStripComboBox1
             // 
-            this.zoomToolStripComboBox1.Name = "zoomToolStripComboBox1";
             resources.ApplyResources(this.zoomToolStripComboBox1, "zoomToolStripComboBox1");
+            this.zoomToolStripComboBox1.Name = "zoomToolStripComboBox1";
             this.zoomToolStripComboBox1.Tag = "Zoom";
             this.zoomToolStripComboBox1.SelectedIndexChanged += new System.EventHandler(this.zoomToolStripComboBox1_SelectedIndexChanged);
             this.zoomToolStripComboBox1.Validated += new System.EventHandler(this.zoomToolStripComboBox1_SelectedIndexChanged);
@@ -512,6 +496,28 @@
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
+            // 
+            // mainTC
+            // 
+            resources.ApplyResources(this.mainTC, "mainTC");
+            this.mainTC.Name = "mainTC";
+            this.mainTC.SelectedIndex = 0;
+            // 
+            // rdlEditPreview1
+            // 
+            this.rdlEditPreview1.CurrentInsert = null;
+            resources.ApplyResources(this.rdlEditPreview1, "rdlEditPreview1");
+            this.rdlEditPreview1.Modified = false;
+            this.rdlEditPreview1.Name = "rdlEditPreview1";
+            this.rdlEditPreview1.SelectedText = "";
+            this.rdlEditPreview1.SelectionTool = false;
+            this.rdlEditPreview1.Zoom = 1F;
+            this.rdlEditPreview1.ZoomMode = fyiReporting.RdlViewer.ZoomEnum.UseZoom;
+            // 
+            // mainProperties
+            // 
+            resources.ApplyResources(this.mainProperties, "mainProperties");
+            this.mainProperties.Name = "mainProperties";
             // 
             // foreColorPicker1
             // 
@@ -1080,7 +1086,147 @@
             resources.GetString("foreColorPicker1.Items556"),
             resources.GetString("foreColorPicker1.Items557"),
             resources.GetString("foreColorPicker1.Items558"),
-            resources.GetString("foreColorPicker1.Items559")});
+            resources.GetString("foreColorPicker1.Items559"),
+            resources.GetString("foreColorPicker1.Items560"),
+            resources.GetString("foreColorPicker1.Items561"),
+            resources.GetString("foreColorPicker1.Items562"),
+            resources.GetString("foreColorPicker1.Items563"),
+            resources.GetString("foreColorPicker1.Items564"),
+            resources.GetString("foreColorPicker1.Items565"),
+            resources.GetString("foreColorPicker1.Items566"),
+            resources.GetString("foreColorPicker1.Items567"),
+            resources.GetString("foreColorPicker1.Items568"),
+            resources.GetString("foreColorPicker1.Items569"),
+            resources.GetString("foreColorPicker1.Items570"),
+            resources.GetString("foreColorPicker1.Items571"),
+            resources.GetString("foreColorPicker1.Items572"),
+            resources.GetString("foreColorPicker1.Items573"),
+            resources.GetString("foreColorPicker1.Items574"),
+            resources.GetString("foreColorPicker1.Items575"),
+            resources.GetString("foreColorPicker1.Items576"),
+            resources.GetString("foreColorPicker1.Items577"),
+            resources.GetString("foreColorPicker1.Items578"),
+            resources.GetString("foreColorPicker1.Items579"),
+            resources.GetString("foreColorPicker1.Items580"),
+            resources.GetString("foreColorPicker1.Items581"),
+            resources.GetString("foreColorPicker1.Items582"),
+            resources.GetString("foreColorPicker1.Items583"),
+            resources.GetString("foreColorPicker1.Items584"),
+            resources.GetString("foreColorPicker1.Items585"),
+            resources.GetString("foreColorPicker1.Items586"),
+            resources.GetString("foreColorPicker1.Items587"),
+            resources.GetString("foreColorPicker1.Items588"),
+            resources.GetString("foreColorPicker1.Items589"),
+            resources.GetString("foreColorPicker1.Items590"),
+            resources.GetString("foreColorPicker1.Items591"),
+            resources.GetString("foreColorPicker1.Items592"),
+            resources.GetString("foreColorPicker1.Items593"),
+            resources.GetString("foreColorPicker1.Items594"),
+            resources.GetString("foreColorPicker1.Items595"),
+            resources.GetString("foreColorPicker1.Items596"),
+            resources.GetString("foreColorPicker1.Items597"),
+            resources.GetString("foreColorPicker1.Items598"),
+            resources.GetString("foreColorPicker1.Items599"),
+            resources.GetString("foreColorPicker1.Items600"),
+            resources.GetString("foreColorPicker1.Items601"),
+            resources.GetString("foreColorPicker1.Items602"),
+            resources.GetString("foreColorPicker1.Items603"),
+            resources.GetString("foreColorPicker1.Items604"),
+            resources.GetString("foreColorPicker1.Items605"),
+            resources.GetString("foreColorPicker1.Items606"),
+            resources.GetString("foreColorPicker1.Items607"),
+            resources.GetString("foreColorPicker1.Items608"),
+            resources.GetString("foreColorPicker1.Items609"),
+            resources.GetString("foreColorPicker1.Items610"),
+            resources.GetString("foreColorPicker1.Items611"),
+            resources.GetString("foreColorPicker1.Items612"),
+            resources.GetString("foreColorPicker1.Items613"),
+            resources.GetString("foreColorPicker1.Items614"),
+            resources.GetString("foreColorPicker1.Items615"),
+            resources.GetString("foreColorPicker1.Items616"),
+            resources.GetString("foreColorPicker1.Items617"),
+            resources.GetString("foreColorPicker1.Items618"),
+            resources.GetString("foreColorPicker1.Items619"),
+            resources.GetString("foreColorPicker1.Items620"),
+            resources.GetString("foreColorPicker1.Items621"),
+            resources.GetString("foreColorPicker1.Items622"),
+            resources.GetString("foreColorPicker1.Items623"),
+            resources.GetString("foreColorPicker1.Items624"),
+            resources.GetString("foreColorPicker1.Items625"),
+            resources.GetString("foreColorPicker1.Items626"),
+            resources.GetString("foreColorPicker1.Items627"),
+            resources.GetString("foreColorPicker1.Items628"),
+            resources.GetString("foreColorPicker1.Items629"),
+            resources.GetString("foreColorPicker1.Items630"),
+            resources.GetString("foreColorPicker1.Items631"),
+            resources.GetString("foreColorPicker1.Items632"),
+            resources.GetString("foreColorPicker1.Items633"),
+            resources.GetString("foreColorPicker1.Items634"),
+            resources.GetString("foreColorPicker1.Items635"),
+            resources.GetString("foreColorPicker1.Items636"),
+            resources.GetString("foreColorPicker1.Items637"),
+            resources.GetString("foreColorPicker1.Items638"),
+            resources.GetString("foreColorPicker1.Items639"),
+            resources.GetString("foreColorPicker1.Items640"),
+            resources.GetString("foreColorPicker1.Items641"),
+            resources.GetString("foreColorPicker1.Items642"),
+            resources.GetString("foreColorPicker1.Items643"),
+            resources.GetString("foreColorPicker1.Items644"),
+            resources.GetString("foreColorPicker1.Items645"),
+            resources.GetString("foreColorPicker1.Items646"),
+            resources.GetString("foreColorPicker1.Items647"),
+            resources.GetString("foreColorPicker1.Items648"),
+            resources.GetString("foreColorPicker1.Items649"),
+            resources.GetString("foreColorPicker1.Items650"),
+            resources.GetString("foreColorPicker1.Items651"),
+            resources.GetString("foreColorPicker1.Items652"),
+            resources.GetString("foreColorPicker1.Items653"),
+            resources.GetString("foreColorPicker1.Items654"),
+            resources.GetString("foreColorPicker1.Items655"),
+            resources.GetString("foreColorPicker1.Items656"),
+            resources.GetString("foreColorPicker1.Items657"),
+            resources.GetString("foreColorPicker1.Items658"),
+            resources.GetString("foreColorPicker1.Items659"),
+            resources.GetString("foreColorPicker1.Items660"),
+            resources.GetString("foreColorPicker1.Items661"),
+            resources.GetString("foreColorPicker1.Items662"),
+            resources.GetString("foreColorPicker1.Items663"),
+            resources.GetString("foreColorPicker1.Items664"),
+            resources.GetString("foreColorPicker1.Items665"),
+            resources.GetString("foreColorPicker1.Items666"),
+            resources.GetString("foreColorPicker1.Items667"),
+            resources.GetString("foreColorPicker1.Items668"),
+            resources.GetString("foreColorPicker1.Items669"),
+            resources.GetString("foreColorPicker1.Items670"),
+            resources.GetString("foreColorPicker1.Items671"),
+            resources.GetString("foreColorPicker1.Items672"),
+            resources.GetString("foreColorPicker1.Items673"),
+            resources.GetString("foreColorPicker1.Items674"),
+            resources.GetString("foreColorPicker1.Items675"),
+            resources.GetString("foreColorPicker1.Items676"),
+            resources.GetString("foreColorPicker1.Items677"),
+            resources.GetString("foreColorPicker1.Items678"),
+            resources.GetString("foreColorPicker1.Items679"),
+            resources.GetString("foreColorPicker1.Items680"),
+            resources.GetString("foreColorPicker1.Items681"),
+            resources.GetString("foreColorPicker1.Items682"),
+            resources.GetString("foreColorPicker1.Items683"),
+            resources.GetString("foreColorPicker1.Items684"),
+            resources.GetString("foreColorPicker1.Items685"),
+            resources.GetString("foreColorPicker1.Items686"),
+            resources.GetString("foreColorPicker1.Items687"),
+            resources.GetString("foreColorPicker1.Items688"),
+            resources.GetString("foreColorPicker1.Items689"),
+            resources.GetString("foreColorPicker1.Items690"),
+            resources.GetString("foreColorPicker1.Items691"),
+            resources.GetString("foreColorPicker1.Items692"),
+            resources.GetString("foreColorPicker1.Items693"),
+            resources.GetString("foreColorPicker1.Items694"),
+            resources.GetString("foreColorPicker1.Items695"),
+            resources.GetString("foreColorPicker1.Items696"),
+            resources.GetString("foreColorPicker1.Items697"),
+            resources.GetString("foreColorPicker1.Items698"),
+            resources.GetString("foreColorPicker1.Items699")});
             this.foreColorPicker1.Name = "foreColorPicker1";
             this.foreColorPicker1.Tag = "Fore Color";
             this.foreColorPicker1.SelectedValueChanged += new System.EventHandler(this.foreColorPicker1_SelectedValueChanged);
@@ -1653,17 +1799,151 @@
             resources.GetString("backColorPicker1.Items556"),
             resources.GetString("backColorPicker1.Items557"),
             resources.GetString("backColorPicker1.Items558"),
-            resources.GetString("backColorPicker1.Items559")});
+            resources.GetString("backColorPicker1.Items559"),
+            resources.GetString("backColorPicker1.Items560"),
+            resources.GetString("backColorPicker1.Items561"),
+            resources.GetString("backColorPicker1.Items562"),
+            resources.GetString("backColorPicker1.Items563"),
+            resources.GetString("backColorPicker1.Items564"),
+            resources.GetString("backColorPicker1.Items565"),
+            resources.GetString("backColorPicker1.Items566"),
+            resources.GetString("backColorPicker1.Items567"),
+            resources.GetString("backColorPicker1.Items568"),
+            resources.GetString("backColorPicker1.Items569"),
+            resources.GetString("backColorPicker1.Items570"),
+            resources.GetString("backColorPicker1.Items571"),
+            resources.GetString("backColorPicker1.Items572"),
+            resources.GetString("backColorPicker1.Items573"),
+            resources.GetString("backColorPicker1.Items574"),
+            resources.GetString("backColorPicker1.Items575"),
+            resources.GetString("backColorPicker1.Items576"),
+            resources.GetString("backColorPicker1.Items577"),
+            resources.GetString("backColorPicker1.Items578"),
+            resources.GetString("backColorPicker1.Items579"),
+            resources.GetString("backColorPicker1.Items580"),
+            resources.GetString("backColorPicker1.Items581"),
+            resources.GetString("backColorPicker1.Items582"),
+            resources.GetString("backColorPicker1.Items583"),
+            resources.GetString("backColorPicker1.Items584"),
+            resources.GetString("backColorPicker1.Items585"),
+            resources.GetString("backColorPicker1.Items586"),
+            resources.GetString("backColorPicker1.Items587"),
+            resources.GetString("backColorPicker1.Items588"),
+            resources.GetString("backColorPicker1.Items589"),
+            resources.GetString("backColorPicker1.Items590"),
+            resources.GetString("backColorPicker1.Items591"),
+            resources.GetString("backColorPicker1.Items592"),
+            resources.GetString("backColorPicker1.Items593"),
+            resources.GetString("backColorPicker1.Items594"),
+            resources.GetString("backColorPicker1.Items595"),
+            resources.GetString("backColorPicker1.Items596"),
+            resources.GetString("backColorPicker1.Items597"),
+            resources.GetString("backColorPicker1.Items598"),
+            resources.GetString("backColorPicker1.Items599"),
+            resources.GetString("backColorPicker1.Items600"),
+            resources.GetString("backColorPicker1.Items601"),
+            resources.GetString("backColorPicker1.Items602"),
+            resources.GetString("backColorPicker1.Items603"),
+            resources.GetString("backColorPicker1.Items604"),
+            resources.GetString("backColorPicker1.Items605"),
+            resources.GetString("backColorPicker1.Items606"),
+            resources.GetString("backColorPicker1.Items607"),
+            resources.GetString("backColorPicker1.Items608"),
+            resources.GetString("backColorPicker1.Items609"),
+            resources.GetString("backColorPicker1.Items610"),
+            resources.GetString("backColorPicker1.Items611"),
+            resources.GetString("backColorPicker1.Items612"),
+            resources.GetString("backColorPicker1.Items613"),
+            resources.GetString("backColorPicker1.Items614"),
+            resources.GetString("backColorPicker1.Items615"),
+            resources.GetString("backColorPicker1.Items616"),
+            resources.GetString("backColorPicker1.Items617"),
+            resources.GetString("backColorPicker1.Items618"),
+            resources.GetString("backColorPicker1.Items619"),
+            resources.GetString("backColorPicker1.Items620"),
+            resources.GetString("backColorPicker1.Items621"),
+            resources.GetString("backColorPicker1.Items622"),
+            resources.GetString("backColorPicker1.Items623"),
+            resources.GetString("backColorPicker1.Items624"),
+            resources.GetString("backColorPicker1.Items625"),
+            resources.GetString("backColorPicker1.Items626"),
+            resources.GetString("backColorPicker1.Items627"),
+            resources.GetString("backColorPicker1.Items628"),
+            resources.GetString("backColorPicker1.Items629"),
+            resources.GetString("backColorPicker1.Items630"),
+            resources.GetString("backColorPicker1.Items631"),
+            resources.GetString("backColorPicker1.Items632"),
+            resources.GetString("backColorPicker1.Items633"),
+            resources.GetString("backColorPicker1.Items634"),
+            resources.GetString("backColorPicker1.Items635"),
+            resources.GetString("backColorPicker1.Items636"),
+            resources.GetString("backColorPicker1.Items637"),
+            resources.GetString("backColorPicker1.Items638"),
+            resources.GetString("backColorPicker1.Items639"),
+            resources.GetString("backColorPicker1.Items640"),
+            resources.GetString("backColorPicker1.Items641"),
+            resources.GetString("backColorPicker1.Items642"),
+            resources.GetString("backColorPicker1.Items643"),
+            resources.GetString("backColorPicker1.Items644"),
+            resources.GetString("backColorPicker1.Items645"),
+            resources.GetString("backColorPicker1.Items646"),
+            resources.GetString("backColorPicker1.Items647"),
+            resources.GetString("backColorPicker1.Items648"),
+            resources.GetString("backColorPicker1.Items649"),
+            resources.GetString("backColorPicker1.Items650"),
+            resources.GetString("backColorPicker1.Items651"),
+            resources.GetString("backColorPicker1.Items652"),
+            resources.GetString("backColorPicker1.Items653"),
+            resources.GetString("backColorPicker1.Items654"),
+            resources.GetString("backColorPicker1.Items655"),
+            resources.GetString("backColorPicker1.Items656"),
+            resources.GetString("backColorPicker1.Items657"),
+            resources.GetString("backColorPicker1.Items658"),
+            resources.GetString("backColorPicker1.Items659"),
+            resources.GetString("backColorPicker1.Items660"),
+            resources.GetString("backColorPicker1.Items661"),
+            resources.GetString("backColorPicker1.Items662"),
+            resources.GetString("backColorPicker1.Items663"),
+            resources.GetString("backColorPicker1.Items664"),
+            resources.GetString("backColorPicker1.Items665"),
+            resources.GetString("backColorPicker1.Items666"),
+            resources.GetString("backColorPicker1.Items667"),
+            resources.GetString("backColorPicker1.Items668"),
+            resources.GetString("backColorPicker1.Items669"),
+            resources.GetString("backColorPicker1.Items670"),
+            resources.GetString("backColorPicker1.Items671"),
+            resources.GetString("backColorPicker1.Items672"),
+            resources.GetString("backColorPicker1.Items673"),
+            resources.GetString("backColorPicker1.Items674"),
+            resources.GetString("backColorPicker1.Items675"),
+            resources.GetString("backColorPicker1.Items676"),
+            resources.GetString("backColorPicker1.Items677"),
+            resources.GetString("backColorPicker1.Items678"),
+            resources.GetString("backColorPicker1.Items679"),
+            resources.GetString("backColorPicker1.Items680"),
+            resources.GetString("backColorPicker1.Items681"),
+            resources.GetString("backColorPicker1.Items682"),
+            resources.GetString("backColorPicker1.Items683"),
+            resources.GetString("backColorPicker1.Items684"),
+            resources.GetString("backColorPicker1.Items685"),
+            resources.GetString("backColorPicker1.Items686"),
+            resources.GetString("backColorPicker1.Items687"),
+            resources.GetString("backColorPicker1.Items688"),
+            resources.GetString("backColorPicker1.Items689"),
+            resources.GetString("backColorPicker1.Items690"),
+            resources.GetString("backColorPicker1.Items691"),
+            resources.GetString("backColorPicker1.Items692"),
+            resources.GetString("backColorPicker1.Items693"),
+            resources.GetString("backColorPicker1.Items694"),
+            resources.GetString("backColorPicker1.Items695"),
+            resources.GetString("backColorPicker1.Items696"),
+            resources.GetString("backColorPicker1.Items697"),
+            resources.GetString("backColorPicker1.Items698"),
+            resources.GetString("backColorPicker1.Items699")});
             this.backColorPicker1.Name = "backColorPicker1";
             this.backColorPicker1.Tag = "Back Color";
             this.backColorPicker1.Click += new System.EventHandler(this.backColorPicker1_Click);
             this.backColorPicker1.Validated += new System.EventHandler(this.backColorPicker1_Validated);
-            // 
-            // mainTC
-            // 
-            resources.ApplyResources(this.mainTC, "mainTC");
-            this.mainTC.Name = "mainTC";
-            this.mainTC.SelectedIndex = 0;
             // 
             // RdlUserControl
             // 

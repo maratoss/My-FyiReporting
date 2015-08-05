@@ -36,6 +36,8 @@ namespace fyiReporting.RdlDesign
         {
             InitializeComponent();
 
+            InitToolbar();
+
             _GetPassword = new RDL.NeedPassword(this.GetPassword);
 
 
@@ -53,7 +55,7 @@ namespace fyiReporting.RdlDesign
 
         private void RdlUserControl_Load(object sender, EventArgs e)
         {
-            this.mainProperties.Visible = false;
+            ShowProperties(false);
         }
 
         /// <summary>
@@ -833,6 +835,21 @@ namespace fyiReporting.RdlDesign
             rdlEditPreview1.Print(pd);
         }
 
+        public void ChangePaperSize(PaperSize paperSize)
+        {
+            var format = paperSize;
+
+            if (format == null || format.Width <= 0 || format.Height <= 0)
+            {
+                return;
+            }
+
+            var propReport = new PropertyReport(this.rdlEditPreview1.DrawCtl, this.rdlEditPreview1.DesignCtl);
+            propReport.PageWidth = format.Width / 100d + "in";
+            propReport.PageHeight = format.Height / 100d + "in";
+
+            mainProperties.ResetSelection(this.rdlEditPreview1.DrawCtl, this.rdlEditPreview1.DesignCtl);
+        }
 
         private void openToolStripButton1_Click(object sender, EventArgs e)
         {
@@ -1296,6 +1313,56 @@ namespace fyiReporting.RdlDesign
         private void btnInsertParameter_Click(object sender, EventArgs e)
         {
             CurrentInsert = "Parameter";
+        }
+
+        private int InitToolbarFont()
+        {
+            // Create the font
+
+
+            foreach (FontFamily ff in FontFamily.Families)
+            {
+                fontToolStripComboBox1.Items.Add(ff.Name);
+            }
+
+            return fontToolStripComboBox1.Width;
+        }
+
+        private void InitToolbar()
+        {
+            InitToolbarFont();
+            InitToolbarFontSize();
+
+            zoomToolStripComboBox1.Items.AddRange(StaticLists.ZoomList);
+
+//            System.Resources.ResourceManager resources = new System.Resources.ResourceManager(typeof(RdlDesigner));
+//
+//
+//            mainTC.Visible = _ShowTabbedInterface;
+//            if (_ShowTabbedInterface)
+//            {   // When tabbed we force the mdi children to be maximized (on reset)
+//                foreach (MDIChild mc in this.MdiChildren)
+//                {
+//                    mc.WindowState = FormWindowState.Maximized;
+//                }
+//            }
+//
+//
+//            mainTB.Name = "mainTB";
+
+            //			mainTB.Size = new Size(440,20);
+
+
+        }
+
+        private int InitToolbarFontSize()
+        {
+            // Create the font
+
+            string[] sizes = new string[] { "8", "9", "10", "11", "12", "14", "16", "18", "20", "22", "24", "26", "28", "36", "48", "72" };
+            fontSizeToolStripComboBox1.Items.AddRange(sizes);
+
+            return fontSizeToolStripComboBox1.Width;
         }
     }
 }
