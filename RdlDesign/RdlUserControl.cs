@@ -241,6 +241,12 @@ namespace fyiReporting.RdlDesign
             return this.rdlEditPreview1.GetRdlText();
         }
 
+        public event EventHandler ModifiedChanged
+        {
+            add { rdlEditPreview1.ModifiedChanged += value; }
+            remove { rdlEditPreview1.ModifiedChanged -= value; }
+        }
+
         public bool Modified
         {
             get { return rdlEditPreview1.Modified; }

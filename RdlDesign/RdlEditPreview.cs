@@ -272,6 +272,12 @@ namespace fyiReporting.RdlDesign
 			}
 		}
 
+        public event EventHandler ModifiedChanged
+        {
+            add{tbEditor.ModifiedChanged += value; }
+            remove { tbEditor.ModifiedChanged -= value; }
+        }
+
 		public bool Modified
 		{
 			get 
