@@ -49,6 +49,7 @@ namespace fyiReporting.RdlDesign
                 ShowProperties(!_ShowProperties);
             };
             ShowProperties(false);
+            rdlEditPreview1.RemoveEditorPage();
         }
 
         /// <summary>

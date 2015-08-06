@@ -130,7 +130,6 @@ namespace fyiReporting.RdlDesign
                 this.pbLines.Width = (int) (g.MeasureString("99999", tbEditor.Font).Width);
             }
 #endif
-
 		}
  
 		internal DesignCtl DesignCtl
@@ -560,6 +559,11 @@ namespace fyiReporting.RdlDesign
 				return c+1;
 			}
 		}
+
+	    public void RemoveEditorPage()
+	    {
+            this.tcEHP.TabPages.RemoveByKey("tpEditor");
+	    }
 
         public bool SelectionTool
         {

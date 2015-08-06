@@ -62,6 +62,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listParameters);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "InsertParameterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Insert a parameter";
