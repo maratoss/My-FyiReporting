@@ -84,8 +84,17 @@ namespace fyiReporting.RdlDesign
 
             if (_Draw.SelectedCount == 0)
             {
-                this.pgSelected.SelectedObject = new PropertyReport(_Draw, dc);
-                cbReportItems.SelectedItem = REPORT;
+                try
+                {
+                    var selectedObject = new PropertyReport(_Draw, dc);
+                    this.pgSelected.SelectedObject = selectedObject;
+                    cbReportItems.SelectedItem = REPORT;
+                }
+                catch (Exception e)
+                {
+                    // todo WTF??!!! Why crash here with NullReferenceException this.pgSelected.SelectedObject = selectedObject;
+                    Console.WriteLine(e);
+                }
             }
             else if (SingleReportItemType())
             {
