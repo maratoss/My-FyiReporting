@@ -18,8 +18,6 @@ namespace fyiReporting.RdlDesign
 {
     public partial class RdlUserControl : UserControl
     {
-
-
         private RDL.NeedPassword _GetPassword;
         private bool bGotPassword = false;
         private string _DataSourceReferencePassword = null;
@@ -50,11 +48,6 @@ namespace fyiReporting.RdlDesign
             {
                 ShowProperties(!_ShowProperties);
             };
-            this.Load += RdlUserControl_Load;
-        }
-
-        private void RdlUserControl_Load(object sender, EventArgs e)
-        {
             ShowProperties(false);
         }
 
