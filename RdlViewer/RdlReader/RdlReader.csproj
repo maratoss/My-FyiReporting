@@ -254,7 +254,7 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>copy /Y "$(TargetDir)" "$(SolutionDir)..\libs\fyiReporting"
+copy /Y "$(TargetDir)" "$(SolutionDir)\LogMaster.Solo\$(OutDir)fyiReporting"</PostBuildEvent>
   </PropertyGroup>
 </Project>
