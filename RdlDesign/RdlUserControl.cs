@@ -839,8 +839,8 @@ namespace fyiReporting.RdlDesign
             }
 
             var propReport = new PropertyReport(this.rdlEditPreview1.DrawCtl, this.rdlEditPreview1.DesignCtl);
-            propReport.PageWidth = format.Width / 100d + "in";
-            propReport.PageHeight = format.Height / 100d + "in";
+            propReport.PageWidth = (format.Width / 100d).ToString(CultureInfo.InvariantCulture) + "in";
+            propReport.PageHeight = (format.Height / 100d).ToString(CultureInfo.InvariantCulture) + "in";
 
             mainProperties.ResetSelection(this.rdlEditPreview1.DrawCtl, this.rdlEditPreview1.DesignCtl);
         }

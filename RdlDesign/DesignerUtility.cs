@@ -670,7 +670,7 @@ namespace fyiReporting.RdlDesign
 		/// <returns>Throws exception with the invalid message</returns>
 		internal static void ValidateSize(string t, bool bZero, bool bMinus)
 		{
-			t = t.Trim();
+			t = t.Trim().Replace(",", ".");
 			if (t.Length == 0) // not specified is ok?
 				return;
 

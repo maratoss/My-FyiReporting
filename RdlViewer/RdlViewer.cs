@@ -1436,6 +1436,8 @@ namespace fyiReporting.RdlViewer
 			}
 			catch (Exception e)
 			{
+                // todo: logged it
+
 				string msg = e.Message;
 			}
 
