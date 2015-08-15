@@ -259,6 +259,6 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>xcopy "$(TargetDir)." "$(SolutionDir)LogMaster.Solo\bin\$(ConfigurationName)\fyiReporting" /F /R /Y /I</PostBuildEvent>
+    <PostBuildEvent>xcopy "$(TargetDir)." "$(SolutionDir)LogMaster.Solo\bin\$(ConfigurationName)" /F /R /Y /I</PostBuildEvent>
   </PropertyGroup>
 </Project>
