@@ -119,6 +119,9 @@
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>LogMaster.Solo_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
       <Name>System</Name>
