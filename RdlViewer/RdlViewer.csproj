@@ -116,7 +116,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>RdlReader\LogMaster.Solo_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>LogMaster.Solo_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
@@ -258,6 +258,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="LogMaster.Solo_TemporaryKey.pfx" />
     <None Include="RdlReader\LogMaster.Solo_TemporaryKey.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
