@@ -35,7 +35,10 @@ using fyiReporting.RDL;
 
 namespace fyiReporting.RdlViewer
 {
+    using System.Linq;
     using System.Threading;
+
+    using Image = System.Drawing.Image;
 
     /// <summary>
 	/// RdlViewer displays RDL files or syntax. 
@@ -263,7 +266,7 @@ namespace fyiReporting.RdlViewer
 
 			// Must be added in this order for DockStyle to work correctly
 			this.Controls.Add(_FindCtl);
-			this.Controls.Add(_ParameterPanel);
+            this.Controls.Add(_ParameterPanel);
 
 			this.ResumeLayout(false);
 		}
@@ -1437,8 +1440,7 @@ namespace fyiReporting.RdlViewer
 			catch (Exception e)
 			{
                 // todo: logged it
-
-				string msg = e.Message;
+			    throw;
 			}
 
 			return pgs;
@@ -1551,6 +1553,9 @@ namespace fyiReporting.RdlViewer
 
 		private void ParametersBuild(Report r)
 		{
+		    ParametersBuildHorizontal(r);
+            return;
+
 			// Remove all previous controls
 			_ParameterPanel.Controls.Clear();
 			_ParameterPanel.AutoScroll = true;
@@ -1625,6 +1630,94 @@ namespace fyiReporting.RdlViewer
 
 			this._ParametersMaxHeight = yPos;
 		}
+
+        private void ParametersBuildHorizontal(Report r)
+        {
+            // Remove all previous controls
+            _ParameterPanel.Controls.Clear();
+            _ParameterPanel.AutoScroll = true;
+
+            List<string> parameters = r.ReportDefinition.Body.ReportItems != null
+                                          ? r.ReportDefinition.Body.ReportItems.OfType<Textbox>()
+                                                .Where(x => x.Value.Expr is FunctionReportParameter)
+                                                .Select(x => x.Value.Source)
+                                                .ToList()
+                                          : Enumerable.Empty<string>().ToList();
+
+            int yPos = 10;
+            int xPos = 10;
+            foreach (UserReportParameter rp in r.UserReportParameters)
+            {
+                // skip parameters that don't have a prompt
+                // and doesn't exist in report
+                if (string.IsNullOrEmpty(rp.Prompt) || !parameters.Any(x => x.Contains(rp.Name)))
+                    continue;
+
+                // Create a label
+                Label label = new Label();
+                label.Parent = _ParameterPanel;
+                label.AutoSize = true;
+                label.Text = rp.Prompt;
+                label.Location = new Point(xPos, 10);
+
+                // Create a control
+                Control v;
+                int width = 90;
+                if (rp.DisplayValues == null)
+                {
+                    TextBox tb = new TextBox();
+                    v = tb;
+                    tb.Height = tb.PreferredHeight;
+                    tb.Validated += new System.EventHandler(ParametersTextValidated);
+                }
+                else
+                {
+                    ComboBox cb = new ComboBox();
+                    // create a label to auto
+                    Label l = new Label();
+                    l.AutoSize = true;
+                    l.Visible = false;
+
+                    cb.Leave += new EventHandler(ParametersLeave);
+                    v = cb;
+                    width = 0;
+                    foreach (string s in rp.DisplayValues)
+                    {
+                        l.Text = s;
+                        if (width < l.Width)
+                            width = l.Width;
+                        cb.Items.Add(s);
+                    }
+                    if (width > 0)
+                    {
+                        l.Text = "XX";
+                        width += l.Width;		// give some extra room for the drop down arrow
+                    }
+                    else
+                        width = 90;				// just force the default
+                }
+                v.Parent = _ParameterPanel;
+                v.Width = width;
+                v.Location = new Point(xPos, 10 + label.Height + 5);
+                if (rp.DefaultValue != null)
+                {
+                    StringBuilder sb = new StringBuilder();
+                    for (int i = 0; i < rp.DefaultValue.Length; i++)
+                    {
+                        if (i > 0)
+                            sb.Append(", ");
+                        sb.Append(rp.DefaultValue[i].ToString());
+                    }
+                    v.Text = sb.ToString();
+                }
+                v.Tag = rp;
+
+                xPos += Math.Max(label.Width, v.Width) + 5;
+                yPos = Math.Max(label.Height, v.Height) + 5;
+            }
+
+            this._ParametersMaxHeight = yPos;
+        }
 
 		private void ParametersLeave(object sender, EventArgs e)
 		{
@@ -2040,12 +2133,12 @@ namespace fyiReporting.RdlViewer
 				_WarningButton.Visible = WarningVisible();
 
 				_ParameterPanel.Location = new Point(0, 0);
-				_ParameterPanel.Width = this.Width - _RunButton.Width - _WarningButton.Width - 5;
-				pHeight = this.Height / 3;
-				if (pHeight > _ParametersMaxHeight)
-					pHeight = _ParametersMaxHeight;
-				if (pHeight < _RunButton.Height + 15)
-					pHeight = _RunButton.Height + 15;
+			    _ParameterPanel.Width = this.Width - _RunButton.Width - _WarningButton.Width - 5;
+			    pHeight = 80; //this.Height / 3;
+//				if (pHeight > _ParametersMaxHeight)
+//					pHeight = _ParametersMaxHeight;
+//				if (pHeight < _RunButton.Height + 15)
+//					pHeight = _RunButton.Height + 15;
 				_ParameterPanel.Height = pHeight;
 			}
 			else
@@ -2168,6 +2261,4 @@ namespace fyiReporting.RdlViewer
 		}
 
 	}
-
-
 }

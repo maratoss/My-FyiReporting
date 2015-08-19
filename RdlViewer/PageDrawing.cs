@@ -33,6 +33,9 @@ using fyiReporting.RDL;
 
 namespace fyiReporting.RdlViewer
 {
+    using Image = System.Drawing.Image;
+    using Rectangle = System.Drawing.Rectangle;
+
     /// <summary>
     /// PageDrawing draws to a graphics context the loaded Pages class.   This 
     /// class is usually created from running a RDL file thru the renderer.

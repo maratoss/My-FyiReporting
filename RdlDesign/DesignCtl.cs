@@ -34,7 +34,6 @@ using fyiReporting.RdlDesign.Resources;
 
 namespace fyiReporting.RdlDesign
 {
-    using System.ComponentModel;
     using System.Threading;
 
     using fyiReporting.RdlDesign.InsertParams;
