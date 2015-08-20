@@ -35,6 +35,7 @@ using fyiReporting.RDL;
 
 namespace fyiReporting.RdlViewer
 {
+    using System.Diagnostics;
     using System.Linq;
     using System.Text.RegularExpressions;
     using System.Threading;
@@ -1638,15 +1639,26 @@ namespace fyiReporting.RdlViewer
             _ParameterPanel.Controls.Clear();
             _ParameterPanel.AutoScroll = true;
 
-            List<string> parameters = r.ReportDefinition.Body.ReportItems != null
-                                          ? r.ReportDefinition.Body.ReportItems.OfType<Textbox>()
-                                                .Select(x => x.Value.Source)
-                                                .Union(
-                                                    r.ReportDefinition.Body.ReportItems.OfType<CustomReportItem>()
-                                                .SelectMany(x => x.Properties.Select(y => y.Value.Source)))
-                                                .SelectMany(x => new Regex(@"(?<=\{\?).*?(?=\})").Matches(x).Cast<Match>().Select(y => y.Groups[0].Value))
-                                                .ToList()
-                                          : Enumerable.Empty<string>().ToList();
+            List<string> parameters = Enumerable.Empty<string>().ToList();
+            try
+            {
+                parameters = r.ReportDefinition.Body.ReportItems != null
+                                 ? r.ReportDefinition.Body.ReportItems.OfType<Textbox>()
+                                       .Select(x => x.Value.Source)
+                                       .Union(r.ReportDefinition.Body.ReportItems.OfType<CustomReportItem>()
+                                       .SelectMany(x => x.Properties.Select(y => y.Value.Source)))
+                                       .SelectMany(x =>
+                                           new Regex(@"(?<=\{\?).*?(?=\})").Matches(x)
+                                               .Cast<Match>()
+                                               .Select(y => y.Groups[0].Value))
+                                       .ToList()
+                                 : Enumerable.Empty<string>().ToList();
+            }
+            catch (Exception e)
+            {
+                // todo: log4net
+                Debug.WriteLine(e);
+            }
 
             int yPos = 10;
             int xPos = 10;
