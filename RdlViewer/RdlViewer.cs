@@ -36,6 +36,7 @@ using fyiReporting.RDL;
 namespace fyiReporting.RdlViewer
 {
     using System.Linq;
+    using System.Text.RegularExpressions;
     using System.Threading;
 
     using Image = System.Drawing.Image;
@@ -1639,8 +1640,11 @@ namespace fyiReporting.RdlViewer
 
             List<string> parameters = r.ReportDefinition.Body.ReportItems != null
                                           ? r.ReportDefinition.Body.ReportItems.OfType<Textbox>()
-                                                .Where(x => x.Value.Expr is FunctionReportParameter)
                                                 .Select(x => x.Value.Source)
+                                                .Union(
+                                                    r.ReportDefinition.Body.ReportItems.OfType<CustomReportItem>()
+                                                .SelectMany(x => x.Properties.Select(y => y.Value.Source)))
+                                                .SelectMany(x => new Regex(@"(?<=\{\?).*?(?=\})").Matches(x).Cast<Match>().Select(y => y.Groups[0].Value))
                                                 .ToList()
                                           : Enumerable.Empty<string>().ToList();
 
@@ -1650,7 +1654,7 @@ namespace fyiReporting.RdlViewer
             {
                 // skip parameters that don't have a prompt
                 // and doesn't exist in report
-                if (string.IsNullOrEmpty(rp.Prompt) || !parameters.Any(x => x.Contains(rp.Name)))
+                if (string.IsNullOrEmpty(rp.Prompt) || !parameters.Any(x => x == rp.Name))
                     continue;
 
                 // Create a label

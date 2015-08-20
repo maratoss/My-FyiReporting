@@ -2623,7 +2623,7 @@ namespace fyiReporting.RdlDesign
         {
             string reportItem =
                 string.Format(
-                    "<ReportItems><Textbox><Height>12pt</Height><Width>1in</Width><Value>=Parameters!{0}.Value</Value><ZIndex>1</ZIndex></Textbox></ReportItems>",
+                    "<ReportItems><Textbox><Height>12pt</Height><Width>1in</Width><Value>={{?{0}}}</Value><ZIndex>1</ZIndex></Textbox></ReportItems>",
                     parameterName);
 
             menuInsertReportItem(this, EventArgs.Empty, reportItem);

@@ -44,8 +44,16 @@ namespace fyiReporting.RDL
         string _Type;	// The type of the custom report item. Interpreted by a
 						// report design tool or server.
         System.Collections.Generic.List<CustomProperty> _Properties;
-	
-		internal CustomReportItem(ReportDefn r, ReportLink p, XmlNode xNode):base(r, p, xNode, false)
+
+	    internal IList<CustomProperty> Properties
+	    {
+	        get
+	        {
+	            return _Properties;
+	        }
+	    }
+
+	    internal CustomReportItem(ReportDefn r, ReportLink p, XmlNode xNode):base(r, p, xNode, false)
 		{
 			_Type=null;
 			ReportItems ris=null;
