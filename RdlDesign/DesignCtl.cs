@@ -735,6 +735,44 @@ namespace fyiReporting.RdlDesign
 			_DrawPanel.Invalidate();   
 		}
 
+        public void SetWidth(float width)
+        {
+            if (_DrawPanel.SelectedCount == 0)
+                return;
+
+            foreach (XmlNode xmlNode in _DrawPanel.SelectedList)
+            {
+                XmlNode tn = xmlNode;
+                if (tn == null || tn.Name != "Textbox")
+                    return;
+
+                _Undo.StartUndoGroup(Strings.PositionCtl_Show_Width);
+                _DrawPanel.SetElement(tn, "Width", width + "pt");
+                _Undo.EndUndoGroup(true);
+                _DrawPanel.Invalidate();	// force a repaint
+                ReportChanged(this, new EventArgs());
+            }
+        }
+
+        public void SetLeftMargin(float value)
+        {
+            if (_DrawPanel.SelectedCount == 0)
+                return;
+
+            foreach (XmlNode xmlNode in _DrawPanel.SelectedList)
+            {
+                XmlNode tn = xmlNode;
+                if (tn == null || tn.Name != "Textbox")
+                    return;
+
+                _Undo.StartUndoGroup(Strings.PositionCtl_Show_Left);
+                _DrawPanel.SetElement(tn, "Left", value + "pt");
+                _Undo.EndUndoGroup(true);
+                _DrawPanel.Invalidate();	// force a repaint
+                ReportChanged(this, new EventArgs());
+            }
+        }
+
 		public void Cut()
 		{
 			if (_DrawPanel.SelectedCount <= 0)

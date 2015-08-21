@@ -1078,6 +1078,8 @@ namespace fyiReporting.RdlDesign
             }
 
             ApplyStyleToSelected("TextAlign", ta.ToString());
+            this.rdlEditPreview1.DesignCtl.SetWidth(this.PageWidth);
+            this.rdlEditPreview1.DesignCtl.SetLeftMargin(0);
             SetProperties();
 
         }
