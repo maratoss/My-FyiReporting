@@ -1,0 +1,92 @@
+2015-08-21 15:18:13,310 [7] ERROR RdlEngine.LogManager - System.ArgumentException: Unable to convert '8/20/2015 3:13:27 PM' to DateTime for visitDate ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 247
+   --- End of inner exception stack trace ---
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 260
+   at fyiReporting.RDL.ReportParameters.SetRuntimeValues(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameters.cs:line 94
+   at fyiReporting.RDL.ReportDefn.RunGetData(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportDefn.cs:line 349
+   at fyiReporting.RDL.Report.RunGetData(IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Runtime\Report.cs:line 144
+   at fyiReporting.RdlViewer.RdlViewer.GetPages(Report report) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlViewer.cs:line 1422
+2015-08-21 15:18:13,390 [7] ERROR RdlEngine.LogManager - System.ArgumentException: Unable to convert '8/20/2015 3:13:27 PM' to DateTime for visitDate ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 247
+   --- End of inner exception stack trace ---
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 260
+   at fyiReporting.RDL.ReportParameters.SetRuntimeValues(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameters.cs:line 94
+   at fyiReporting.RDL.ReportDefn.RunGetData(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportDefn.cs:line 349
+   at fyiReporting.RDL.Report.RunGetData(IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Runtime\Report.cs:line 144
+   at fyiReporting.RdlViewer.RdlViewer.GetPages(Report report) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlViewer.cs:line 1422
+2015-08-21 15:18:13,437 [7] ERROR RdlEngine.LogManager - System.ArgumentException: Unable to convert '8/20/2015 3:13:27 PM' to DateTime for visitDate ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 247
+   --- End of inner exception stack trace ---
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 260
+   at fyiReporting.RDL.ReportParameters.SetRuntimeValues(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameters.cs:line 94
+   at fyiReporting.RDL.ReportDefn.RunGetData(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportDefn.cs:line 349
+   at fyiReporting.RDL.Report.RunGetData(IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Runtime\Report.cs:line 144
+   at fyiReporting.RdlViewer.RdlViewer.GetPages(Report report) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlViewer.cs:line 1422
+2015-08-21 15:18:13,486 [7] ERROR RdlEngine.LogManager - System.ArgumentException: Unable to convert '8/20/2015 3:13:27 PM' to DateTime for visitDate ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 247
+   --- End of inner exception stack trace ---
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 260
+   at fyiReporting.RDL.ReportParameters.SetRuntimeValues(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameters.cs:line 94
+   at fyiReporting.RDL.ReportDefn.RunGetData(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportDefn.cs:line 349
+   at fyiReporting.RDL.Report.RunGetData(IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Runtime\Report.cs:line 144
+   at fyiReporting.RdlViewer.RdlViewer.GetPages(Report report) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlViewer.cs:line 1422
+2015-08-21 15:18:13,533 [7] ERROR RdlEngine.LogManager - System.ArgumentException: Unable to convert '8/20/2015 3:13:27 PM' to DateTime for visitDate ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 247
+   --- End of inner exception stack trace ---
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 260
+   at fyiReporting.RDL.ReportParameters.SetRuntimeValues(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameters.cs:line 94
+   at fyiReporting.RDL.ReportDefn.RunGetData(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportDefn.cs:line 349
+   at fyiReporting.RDL.Report.RunGetData(IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Runtime\Report.cs:line 144
+   at fyiReporting.RdlViewer.RdlViewer.GetPages(Report report) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlViewer.cs:line 1422
+2015-08-21 15:18:13,573 [7] ERROR RdlEngine.LogManager - System.ArgumentException: Unable to convert '8/20/2015 3:13:27 PM' to DateTime for visitDate ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 247
+   --- End of inner exception stack trace ---
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 260
+   at fyiReporting.RDL.ReportParameters.SetRuntimeValues(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameters.cs:line 94
+   at fyiReporting.RDL.ReportDefn.RunGetData(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportDefn.cs:line 349
+   at fyiReporting.RDL.Report.RunGetData(IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Runtime\Report.cs:line 144
+   at fyiReporting.RdlViewer.RdlViewer.GetPages(Report report) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlViewer.cs:line 1422
+2015-08-21 15:18:13,617 [7] ERROR RdlEngine.LogManager - System.ArgumentException: Unable to convert '8/20/2015 3:13:27 PM' to DateTime for visitDate ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 247
+   --- End of inner exception stack trace ---
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 260
+   at fyiReporting.RDL.ReportParameters.SetRuntimeValues(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameters.cs:line 94
+   at fyiReporting.RDL.ReportDefn.RunGetData(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportDefn.cs:line 349
+   at fyiReporting.RDL.Report.RunGetData(IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Runtime\Report.cs:line 144
+   at fyiReporting.RdlViewer.RdlViewer.GetPages(Report report) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlViewer.cs:line 1422
+2015-08-21 15:18:13,662 [7] ERROR RdlEngine.LogManager - System.ArgumentException: Unable to convert '8/20/2015 3:13:27 PM' to DateTime for visitDate ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 247
+   --- End of inner exception stack trace ---
+   at fyiReporting.RDL.ReportParameter.SetRuntimeValue(Report rpt, Object v) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameter.cs:line 260
+   at fyiReporting.RDL.ReportParameters.SetRuntimeValues(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportParameters.cs:line 94
+   at fyiReporting.RDL.ReportDefn.RunGetData(Report rpt, IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Definition\ReportDefn.cs:line 349
+   at fyiReporting.RDL.Report.RunGetData(IDictionary parms) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlEngine\Runtime\Report.cs:line 144
+   at fyiReporting.RdlViewer.RdlViewer.GetPages(Report report) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlViewer.cs:line 1422
+2015-08-21 15:18:13,705 [7] ERROR RdlEngine.LogManager - System.NullReferenceException: Object reference not set to an instance of an object.
+   at fyiReporting.RdlViewer.RdlViewer._Print(PrintDocument pd) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlViewer.cs:line 808
+   at fyiReporting.RdlViewer.RdlViewer.Print(PrintDocument pd) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlViewer.cs:line 797
+   at fyiReporting.RdlReader.RdlReader.SilentPrint(String reportPath, String parameters, String printerName) in d:\Repositories\LogMaster\libs\My-FyiReporting\RdlViewer\RdlReader\RdlReader.cs:line 299

@@ -151,6 +151,9 @@
     <Reference Include="iTextSharp">
       <HintPath>..\..\..\src\packages\iTextSharp-LGPL.4.1.6\lib\iTextSharp.dll</HintPath>
     </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\src\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -707,6 +710,7 @@
     <Compile Include="Functions\FunctionMinusInt32.cs" />
     <Compile Include="Functions\FunctionAggrArray.cs" />
     <Compile Include="GraphicsExtended.cs" />
+    <Compile Include="LogManager.cs" />
     <Compile Include="RDLBaseEBN.cs" />
     <Compile Include="Resources\Strings.Designer.cs">
       <AutoGen>True</AutoGen>

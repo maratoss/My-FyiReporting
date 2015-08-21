@@ -40,6 +40,8 @@ namespace fyiReporting.RdlViewer
     using System.Text.RegularExpressions;
     using System.Threading;
 
+    using RdlEngine;
+
     using Image = System.Drawing.Image;
 
     /// <summary>
@@ -1441,8 +1443,7 @@ namespace fyiReporting.RdlViewer
 			}
 			catch (Exception e)
 			{
-                // todo: logged it
-			    throw;
+                LogManager.Logger.Error(e);
 			}
 
 			return pgs;

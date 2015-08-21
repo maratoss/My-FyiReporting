@@ -737,6 +737,11 @@ namespace fyiReporting.RdlDesign
 
         public void SetWidth(float width)
         {
+            SetWidth(width.ToString(CultureInfo.InvariantCulture) + "pt");
+        }
+
+        public void SetWidth(string width)
+        {
             if (_DrawPanel.SelectedCount == 0)
                 return;
 
@@ -747,7 +752,7 @@ namespace fyiReporting.RdlDesign
                     return;
 
                 _Undo.StartUndoGroup(Strings.PositionCtl_Show_Width);
-                _DrawPanel.SetElement(tn, "Width", width + "pt");
+                _DrawPanel.SetElement(tn, "Width", width);
                 _Undo.EndUndoGroup(true);
                 _DrawPanel.Invalidate();	// force a repaint
                 ReportChanged(this, new EventArgs());

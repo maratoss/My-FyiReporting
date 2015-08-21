@@ -7,6 +7,8 @@ using System.Security;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 //
+using log4net.Config;
+
 [assembly: AssemblyTitle("RDL Engine")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
@@ -58,3 +60,4 @@ using System.Security;
 //[assembly: AssemblyKeyName(@"..\..\LogMaster.Solo_TemporaryKey.pfx")]
 [assembly: InternalsVisibleTo(@"RdlViewer, PublicKey=002400000480000094000000060200000024000052534131000400000100010057dd2f971f70a1ba19a4a0c6dd65dae6f9d6a6c8a6181ec5b4a3fb808b0abf78533ab4f5b270ebf0e679e3ae1623508cc76f9bd280f276d53f78abc800d46dda7baae9f8598001a4459b6b6b425b098213524869ba81dce84f6b7b0baf7eb7a3c18297c4331689f2f84a63d122be23d18eae536f9b0ce40fd9a54527764c7987")]
 [assembly: InternalsVisibleTo(@"RdlReader, PublicKey=002400000480000094000000060200000024000052534131000400000100010057dd2f971f70a1ba19a4a0c6dd65dae6f9d6a6c8a6181ec5b4a3fb808b0abf78533ab4f5b270ebf0e679e3ae1623508cc76f9bd280f276d53f78abc800d46dda7baae9f8598001a4459b6b6b425b098213524869ba81dce84f6b7b0baf7eb7a3c18297c4331689f2f84a63d122be23d18eae536f9b0ce40fd9a54527764c7987")]
+[assembly: XmlConfigurator(Watch = true)]

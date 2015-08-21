@@ -39,6 +39,8 @@ namespace fyiReporting.RdlReader
     using System.Diagnostics;
     using System.Linq;
 
+    using RdlEngine;
+
     /// <summary>
     /// RdlReader is a application for displaying reports based on RDL.
     /// </summary>
@@ -298,6 +300,7 @@ namespace fyiReporting.RdlReader
             }
             catch (Exception ex)
             {
+                LogManager.Logger.Error(ex);
 #if !DEBUG
                 const string rdlreaderlog = "RdlReaderLog.txt";
                 if (!File.Exists(rdlreaderlog))

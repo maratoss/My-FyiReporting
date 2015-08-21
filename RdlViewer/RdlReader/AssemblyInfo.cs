@@ -6,6 +6,8 @@ using System.Runtime.CompilerServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 //
+using log4net.Config;
+
 [assembly: AssemblyTitle("RDL Reader")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
@@ -55,3 +57,4 @@ using System.Runtime.CompilerServices;
 //
 [assembly: AssemblyDelaySign(false)]
 [assembly: AssemblyKeyName("")]
+[assembly: XmlConfigurator(Watch = true)]

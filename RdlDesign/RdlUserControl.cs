@@ -1078,7 +1078,11 @@ namespace fyiReporting.RdlDesign
             }
 
             ApplyStyleToSelected("TextAlign", ta.ToString());
-            this.rdlEditPreview1.DesignCtl.SetWidth(this.PageWidth);
+
+
+            var propReport = new PropertyReport(this.rdlEditPreview1.DrawCtl, this.rdlEditPreview1.DesignCtl);
+
+            this.rdlEditPreview1.DesignCtl.SetWidth(propReport.PageWidth);
             this.rdlEditPreview1.DesignCtl.SetLeftMargin(0);
             SetProperties();
 
