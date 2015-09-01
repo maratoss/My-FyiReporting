@@ -264,6 +264,8 @@ namespace fyiReporting.RdlReader
 
         public static void SilentPrint(string reportPath, string parameters, string printerName = null)
         {
+            LogManager.Logger.Info("start printing\n" + reportPath + " " + parameters + " " + printerName);
+
             var rdlViewer = new fyiReporting.RdlViewer.RdlViewer();
             rdlViewer.Visible = false;
             rdlViewer.SourceFile = new Uri(reportPath);

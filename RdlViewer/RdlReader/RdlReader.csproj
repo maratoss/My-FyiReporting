@@ -284,7 +284,7 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>xcopy "$(TargetDir)." "$(SolutionDir)LogMaster.Solo\bin\$(ConfigurationName)" /F /R /Y /I</PostBuildEvent>
+    <PostBuildEvent>xcopy /F /R /Y /I "$(TargetDir)*" "$(SolutionDir)LogMaster.Solo\bin\$(ConfigurationName)"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Label="SlowCheetah">
     <SlowCheetahToolsPath>$([System.IO.Path]::GetFullPath( $(MSBuildProjectDirectory)\..\..\..\..\src\packages\SlowCheetah.2.5.15\tools\))</SlowCheetahToolsPath>
