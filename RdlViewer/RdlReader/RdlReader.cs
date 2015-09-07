@@ -303,17 +303,6 @@ namespace fyiReporting.RdlReader
             catch (Exception ex)
             {
                 LogManager.Logger.Error(ex);
-#if !DEBUG
-                const string rdlreaderlog = "RdlReaderLog.txt";
-                if (!File.Exists(rdlreaderlog))
-                {
-                    File.Create(rdlreaderlog).Dispose();
-                }
-
-                File.AppendAllLines(
-                    rdlreaderlog,
-                    new[] { string.Format("[{0}] {1}", DateTime.Now.ToString("dd.MM.yyyy H:mm:ss"), ex.Message) });
-#endif
                 Debug.WriteLine(Strings.RdlReader_ShowC_PrintError + ex.Message);
             }
         }
