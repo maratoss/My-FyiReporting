@@ -1522,13 +1522,16 @@ namespace fyiReporting.RdlViewer
 					// 15052008 AJM - Updating Render notification window - This could be improved to show current action in the future
 					if (_ShowWaitDialog)
 					{
-                        t = this.Visible ? new Thread(this.showWait) : new Thread(() => { /* do nothing */ });
-						t.Start();
+					    if (this.Visible)
+					    {
+					        t = new Thread(this.showWait);
+                            t.Start();
 
-//						while (!t.IsAlive)
-//						{
-//							System.Threading.Thread.Sleep(1);
-//						}
+                            while (!t.IsAlive)
+                            {
+                                System.Threading.Thread.Sleep(1);
+                            }
+					    }
 					}
 					_InLoading = true;
 					savec = this.Cursor;				// this could take a while so put up wait cursor

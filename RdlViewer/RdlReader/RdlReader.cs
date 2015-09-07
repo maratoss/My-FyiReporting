@@ -299,6 +299,7 @@ namespace fyiReporting.RdlReader
                 }
 
                 rdlViewer.Print(pd);
+                LogManager.Logger.Info("printing end");
             }
             catch (Exception ex)
             {
