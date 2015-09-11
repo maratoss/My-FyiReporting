@@ -244,7 +244,7 @@ namespace fyiReporting.RDL
 				if (v is String && _NumericType)
 					v = ConvertStringToNumber((string) v);
 
-                rtv = Convert.ChangeType(v, _dt, new CultureInfo("en-US"));
+                rtv = Convert.ChangeType(v, _dt, CultureInfo.InvariantCulture);
 			}
 			catch (Exception e)
 			{
