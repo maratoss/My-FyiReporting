@@ -209,7 +209,6 @@
     </None>
     <None Include="LogMaster.Solo_TemporaryKey.pfx" />
     <None Include="packages.config" />
-    <None Include="Properties\SlowCheetah\SlowCheetah.Transforms.targets" />
     <None Include="Resources\document-save.png" />
     <None Include="Resources\document-print.png" />
     <None Include="Resources\document-open.png" />
