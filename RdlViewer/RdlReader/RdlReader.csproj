@@ -119,7 +119,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>LogMaster.Solo_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -206,7 +207,6 @@
     <None Include="app.test.config">
       <DependentUpon>app.config</DependentUpon>
     </None>
-    <None Include="LogMaster.Solo_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Resources\document-save.png" />
     <None Include="Resources\document-print.png" />

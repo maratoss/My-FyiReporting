@@ -112,7 +112,8 @@
     <Optimize>false</Optimize>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>LogMaster.Solo_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
@@ -176,7 +177,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogMaster.Solo_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

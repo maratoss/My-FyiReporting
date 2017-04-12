@@ -142,7 +142,8 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>LogMaster.Solo_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.SharpZipLib">
@@ -1147,7 +1148,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogMaster.Solo_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="RdlEngineConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
