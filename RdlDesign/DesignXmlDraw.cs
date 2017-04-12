@@ -36,8 +36,11 @@ using fyiReporting.RdlDesign.Resources;
 
 namespace fyiReporting.RdlDesign
 {
+    using System.Text.RegularExpressions;
 
-	/// <summary>
+    using RdlEngine;
+
+    /// <summary>
 	/// Control for providing a designer image of RDL.   Works directly off the RDL XML.
 	/// </summary>
 	internal class DesignXmlDraw: UserControl
@@ -2592,7 +2595,20 @@ namespace fyiReporting.RdlDesign
 					// Illegal unit
 					return 0;
 				}
-				d = Convert.ToDecimal(n, NumberFormatInfo.InvariantInfo);
+
+			    try
+			    {
+			        d = Convert.ToDecimal(
+			            n,
+			            !Regex.IsMatch(n, @"\A[ ]*[-]?[0-9]*[.]?[0-9]*[ ]*\Z")
+			                ? NumberFormatInfo.CurrentInfo
+			                : NumberFormatInfo.InvariantInfo);
+			    }
+			    catch (Exception e)
+			    {
+			        LogManager.Logger.Error("Parsing decimal", e);
+			        d = 0;
+			    }
 			}
 			catch
 			{
