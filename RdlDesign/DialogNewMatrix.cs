@@ -46,7 +46,7 @@ namespace fyiReporting.RdlDesign
             }
             else
                 this.cbDataSets.Items.AddRange(datasets);
-            cbDataSets.SelectedIndex = 0;
+            if (cbDataSets.Items.Count > 0) cbDataSets.SelectedIndex = 0;
         }
 
         internal string MatrixXml
