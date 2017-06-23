@@ -58,14 +58,14 @@
         {
             LogManager.Logger.Debug("printing started. rdl:\n" + sourceRdl);
 
-            var rdlViewer = new fyiReporting.RdlViewer.RdlViewer();
+            var rdlViewer = new RdlViewer();
             rdlViewer.Visible = false;
             rdlViewer.SourceRdl = sourceRdl;
             rdlViewer.Parameters = parameters;
             rdlViewer.Rebuild();
 
             var pd = new PrintDocument();
-            pd.DocumentName = rdlViewer.SourceFile.LocalPath;
+            pd.DocumentName = "lm solo printing";
             pd.PrinterSettings.FromPage = 1;
             pd.PrinterSettings.ToPage = rdlViewer.PageCount;
             pd.PrinterSettings.MaximumPage = rdlViewer.PageCount;
